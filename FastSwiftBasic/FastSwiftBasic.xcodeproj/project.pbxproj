@@ -16,6 +16,7 @@
 		B0107DA12B3579F800B4236D /* FastSwiftBasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0107DA02B3579F800B4236D /* FastSwiftBasicUITestsLaunchTests.swift */; };
 		B0107DB02B357F8500B4236D /* VariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0107DAF2B357F8500B4236D /* VariableType.swift */; };
 		B0107DB22B3585FC00B4236D /* MyCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0107DB12B3585FC00B4236D /* MyCollections.swift */; };
+		B0107DB42B3BAB6D00B4236D /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0107DB32B3BAB6D00B4236D /* Condition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B0107DA02B3579F800B4236D /* FastSwiftBasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSwiftBasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B0107DAF2B357F8500B4236D /* VariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableType.swift; sourceTree = "<group>"; };
 		B0107DB12B3585FC00B4236D /* MyCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollections.swift; sourceTree = "<group>"; };
+		B0107DB32B3BAB6D00B4236D /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				B0107D892B3579F800B4236D /* Preview Content */,
 				B0107DAF2B357F8500B4236D /* VariableType.swift */,
 				B0107DB12B3585FC00B4236D /* MyCollections.swift */,
+				B0107DB32B3BAB6D00B4236D /* Condition.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				B0107D862B3579F500B4236D /* ContentView.swift in Sources */,
 				B0107D842B3579F500B4236D /* FastSwiftBasicApp.swift in Sources */,
 				B0107DB22B3585FC00B4236D /* MyCollections.swift in Sources */,
+				B0107DB42B3BAB6D00B4236D /* Condition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
