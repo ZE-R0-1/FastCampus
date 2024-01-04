@@ -13,10 +13,11 @@ struct Condition: View {
     
     var body: some View {
         
-        guard hasLoggedIn else {
-            Text("로그인 하시겠습니까?")
+        if hasLoggedIn {
+            return Text("Do you want to log out?")
+        } else {
+            return Text("Do you want to log in?")
         }
-            Text("로그아웃 하시겠습니까?")
     }
 }
 
