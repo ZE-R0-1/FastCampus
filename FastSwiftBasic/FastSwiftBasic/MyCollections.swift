@@ -20,7 +20,7 @@ struct MyCollections: View {
             Text(hiphop.intersection(jazzs).description)
             
             Button {
-                var intersectionMusic = hiphop.intersection(jazzs)
+                let intersectionMusic = hiphop.intersection(jazzs)
                 intersectionMusic.description
             } label: {
                 Text("hit!")

@@ -14,7 +14,7 @@ struct Half: View {
     var body: some View {
         List {
             ForEach(names, id: \.self) { name in
-                var welcome = sayHi(to: name)
+                let welcome = sayHi(to: name)
                 if name == "제로" {
                     Text("기다렸어요. \(welcome)")
                 } else {
