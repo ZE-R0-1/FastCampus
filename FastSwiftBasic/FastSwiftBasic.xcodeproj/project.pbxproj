@@ -26,6 +26,7 @@
 		B0BD1CC62B4D2BCC00E92BBB /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC52B4D2BCC00E92BBB /* Selection.swift */; };
 		B0BD1CC82B4D33EE00E92BBB /* Nill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC72B4D33EE00E92BBB /* Nill.swift */; };
 		B0BD1CCA2B4D38D100E92BBB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC92B4D38D100E92BBB /* Option.swift */; };
+		B0BD1CCC2B4D3CA200E92BBB /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CCB2B4D3CA200E92BBB /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		B0BD1CC52B4D2BCC00E92BBB /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		B0BD1CC72B4D33EE00E92BBB /* Nill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nill.swift; sourceTree = "<group>"; };
 		B0BD1CC92B4D38D100E92BBB /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		B0BD1CCB2B4D3CA200E92BBB /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				B0BD1CC52B4D2BCC00E92BBB /* Selection.swift */,
 				B0BD1CC72B4D33EE00E92BBB /* Nill.swift */,
 				B0BD1CC92B4D38D100E92BBB /* Option.swift */,
+				B0BD1CCB2B4D3CA200E92BBB /* Sample.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				B0107D842B3579F500B4236D /* FastSwiftBasicApp.swift in Sources */,
 				B0107DB62B3BB87200B4236D /* Loop.swift in Sources */,
 				B0107DC02B4D1F7800B4236D /* Diff.swift in Sources */,
+				B0BD1CCC2B4D3CA200E92BBB /* Sample.swift in Sources */,
 				B0107DB22B3585FC00B4236D /* MyCollections.swift in Sources */,
 				B0107DB42B3BAB6D00B4236D /* Condition.swift in Sources */,
 				B0107DBE2B4BE73100B4236D /* Elevator.swift in Sources */,
