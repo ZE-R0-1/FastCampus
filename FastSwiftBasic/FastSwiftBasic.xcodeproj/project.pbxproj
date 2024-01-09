@@ -25,6 +25,7 @@
 		B0BD1CC42B4D28BE00E92BBB /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC32B4D28BE00E92BBB /* Choice.swift */; };
 		B0BD1CC62B4D2BCC00E92BBB /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC52B4D2BCC00E92BBB /* Selection.swift */; };
 		B0BD1CC82B4D33EE00E92BBB /* Nill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC72B4D33EE00E92BBB /* Nill.swift */; };
+		B0BD1CCA2B4D38D100E92BBB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC92B4D38D100E92BBB /* Option.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		B0BD1CC32B4D28BE00E92BBB /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
 		B0BD1CC52B4D2BCC00E92BBB /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		B0BD1CC72B4D33EE00E92BBB /* Nill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nill.swift; sourceTree = "<group>"; };
+		B0BD1CC92B4D38D100E92BBB /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				B0BD1CC32B4D28BE00E92BBB /* Choice.swift */,
 				B0BD1CC52B4D2BCC00E92BBB /* Selection.swift */,
 				B0BD1CC72B4D33EE00E92BBB /* Nill.swift */,
+				B0BD1CC92B4D38D100E92BBB /* Option.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				B0BD1CC62B4D2BCC00E92BBB /* Selection.swift in Sources */,
 				B0107DBC2B47E9E200B4236D /* Half.swift in Sources */,
+				B0BD1CCA2B4D38D100E92BBB /* Option.swift in Sources */,
 				B0107DB02B357F8500B4236D /* VariableType.swift in Sources */,
 				B0BD1CC42B4D28BE00E92BBB /* Choice.swift in Sources */,
 				B0107D862B3579F500B4236D /* ContentView.swift in Sources */,
