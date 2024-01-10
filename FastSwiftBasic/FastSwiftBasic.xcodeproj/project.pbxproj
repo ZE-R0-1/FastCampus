@@ -27,6 +27,7 @@
 		B0BD1CC82B4D33EE00E92BBB /* Nill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC72B4D33EE00E92BBB /* Nill.swift */; };
 		B0BD1CCA2B4D38D100E92BBB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CC92B4D38D100E92BBB /* Option.swift */; };
 		B0BD1CCC2B4D3CA200E92BBB /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CCB2B4D3CA200E92BBB /* Sample.swift */; };
+		B0BD1CCE2B4E80A000E92BBB /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1CCD2B4E80A000E92BBB /* Exception.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		B0BD1CC72B4D33EE00E92BBB /* Nill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nill.swift; sourceTree = "<group>"; };
 		B0BD1CC92B4D38D100E92BBB /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		B0BD1CCB2B4D3CA200E92BBB /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		B0BD1CCD2B4E80A000E92BBB /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				B0BD1CC72B4D33EE00E92BBB /* Nill.swift */,
 				B0BD1CC92B4D38D100E92BBB /* Option.swift */,
 				B0BD1CCB2B4D3CA200E92BBB /* Sample.swift */,
+				B0BD1CCD2B4E80A000E92BBB /* Exception.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				B0107DBA2B46A62300B4236D /* Function.swift in Sources */,
 				B0107D842B3579F500B4236D /* FastSwiftBasicApp.swift in Sources */,
 				B0107DB62B3BB87200B4236D /* Loop.swift in Sources */,
+				B0BD1CCE2B4E80A000E92BBB /* Exception.swift in Sources */,
 				B0107DC02B4D1F7800B4236D /* Diff.swift in Sources */,
 				B0BD1CCC2B4D3CA200E92BBB /* Sample.swift in Sources */,
 				B0107DB22B3585FC00B4236D /* MyCollections.swift in Sources */,
