@@ -44,10 +44,8 @@ struct Setting: View {
                                     .foregroundColor(.white)
                                     .cornerRadius(6)
                             }
-                            
                         }
                     }
-                    
                 }
             }
             .navigationTitle("설정")

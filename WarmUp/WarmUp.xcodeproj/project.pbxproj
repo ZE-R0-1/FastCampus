@@ -18,6 +18,14 @@
 		B07795792B5651AD00A9DD56 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795782B5651AD00A9DD56 /* Onboarding.swift */; };
 		B077957C2B5658D700A9DD56 /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077957B2B5658D700A9DD56 /* ListLoop.swift */; };
 		B077957E2B56669900A9DD56 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077957D2B56669900A9DD56 /* Setting.swift */; };
+		B07795832B5670B200A9DD56 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795822B5670B200A9DD56 /* Modal.swift */; };
+		B07795852B5671F000A9DD56 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795842B5671F000A9DD56 /* Detail.swift */; };
+		B07795872B57539500A9DD56 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795862B57539500A9DD56 /* Navigation.swift */; };
+		B07795892B5758E700A9DD56 /* MyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795882B5758E700A9DD56 /* MyTab.swift */; };
+		B077958B2B575A6E00A9DD56 /* TabDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077958A2B575A6E00A9DD56 /* TabDetail.swift */; };
+		B077958D2B575D3200A9DD56 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077958C2B575D3200A9DD56 /* MyApp.swift */; };
+		B07795902B575FB300A9DD56 /* FirstList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077958F2B575FB300A9DD56 /* FirstList.swift */; };
+		B07795922B575FF400A9DD56 /* OnboardingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795912B575FF400A9DD56 /* OnboardingSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,14 @@
 		B07795782B5651AD00A9DD56 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		B077957B2B5658D700A9DD56 /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
 		B077957D2B56669900A9DD56 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		B07795822B5670B200A9DD56 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		B07795842B5671F000A9DD56 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		B07795862B57539500A9DD56 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		B07795882B5758E700A9DD56 /* MyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTab.swift; sourceTree = "<group>"; };
+		B077958A2B575A6E00A9DD56 /* TabDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetail.swift; sourceTree = "<group>"; };
+		B077958C2B575D3200A9DD56 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		B077958F2B575FB300A9DD56 /* FirstList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstList.swift; sourceTree = "<group>"; };
+		B07795912B575FF400A9DD56 /* OnboardingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +81,9 @@
 		B077955F2B5644B600A9DD56 /* WarmUp */ = {
 			isa = PBXGroup;
 			children = (
-				B07795722B564B1500A9DD56 /* 01 */,
+				B077957F2B56704E00A9DD56 /* 03 */,
 				B077957A2B56566E00A9DD56 /* 02 */,
+				B07795722B564B1500A9DD56 /* 01 */,
 				B07795602B5644B600A9DD56 /* WarmUpApp.swift */,
 				B07795622B5644B600A9DD56 /* ContentView.swift */,
 				B07795642B5644B800A9DD56 /* Assets.xcassets */,
@@ -102,6 +119,29 @@
 				B077957D2B56669900A9DD56 /* Setting.swift */,
 			);
 			path = 02;
+			sourceTree = "<group>";
+		};
+		B077957F2B56704E00A9DD56 /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				B077958E2B575F9700A9DD56 /* New Group */,
+				B07795822B5670B200A9DD56 /* Modal.swift */,
+				B07795842B5671F000A9DD56 /* Detail.swift */,
+				B07795862B57539500A9DD56 /* Navigation.swift */,
+				B07795882B5758E700A9DD56 /* MyTab.swift */,
+				B077958A2B575A6E00A9DD56 /* TabDetail.swift */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
+		B077958E2B575F9700A9DD56 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B077958C2B575D3200A9DD56 /* MyApp.swift */,
+				B077958F2B575FB300A9DD56 /* FirstList.swift */,
+				B07795912B575FF400A9DD56 /* OnboardingSample.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,13 +215,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07795772B564F2600A9DD56 /* MyText.swift in Sources */,
+				B07795832B5670B200A9DD56 /* Modal.swift in Sources */,
 				B07795632B5644B600A9DD56 /* ContentView.swift in Sources */,
+				B07795872B57539500A9DD56 /* Navigation.swift in Sources */,
+				B077958B2B575A6E00A9DD56 /* TabDetail.swift in Sources */,
 				B07795712B564B0000A9DD56 /* Layout.swift in Sources */,
 				B07795792B5651AD00A9DD56 /* Onboarding.swift in Sources */,
 				B07795752B564D3400A9DD56 /* MyButton.swift in Sources */,
+				B077958D2B575D3200A9DD56 /* MyApp.swift in Sources */,
 				B077956F2B5647F800A9DD56 /* SimpleView.swift in Sources */,
+				B07795892B5758E700A9DD56 /* MyTab.swift in Sources */,
 				B07795612B5644B600A9DD56 /* WarmUpApp.swift in Sources */,
 				B077957C2B5658D700A9DD56 /* ListLoop.swift in Sources */,
+				B07795922B575FF400A9DD56 /* OnboardingSample.swift in Sources */,
+				B07795852B5671F000A9DD56 /* Detail.swift in Sources */,
+				B07795902B575FB300A9DD56 /* FirstList.swift in Sources */,
 				B077957E2B56669900A9DD56 /* Setting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
