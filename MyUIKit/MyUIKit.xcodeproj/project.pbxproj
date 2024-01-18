@@ -18,6 +18,8 @@
 		B07795BA2B57B6F900A9DD56 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795B92B57B6F900A9DD56 /* TodoViewController.swift */; };
 		B07795BC2B57C6F100A9DD56 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795BB2B57C6F100A9DD56 /* GreenViewController.swift */; };
 		B07795BE2B57C75C00A9DD56 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795BD2B57C75C00A9DD56 /* IndigoViewController.swift */; };
+		B07795C02B58ACCF00A9DD56 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795BF2B58ACCF00A9DD56 /* ProfileViewController.swift */; };
+		B07795C22B58AE7100A9DD56 /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795C12B58AE7100A9DD56 /* ProfileDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B07795B92B57B6F900A9DD56 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		B07795BB2B57C6F100A9DD56 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		B07795BD2B57C75C00A9DD56 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
+		B07795BF2B58ACCF00A9DD56 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B07795C12B58AE7100A9DD56 /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				B07795B92B57B6F900A9DD56 /* TodoViewController.swift */,
 				B07795BB2B57C6F100A9DD56 /* GreenViewController.swift */,
 				B07795BD2B57C75C00A9DD56 /* IndigoViewController.swift */,
+				B07795BF2B58ACCF00A9DD56 /* ProfileViewController.swift */,
+				B07795C12B58AE7100A9DD56 /* ProfileDetailViewController.swift */,
 				B07795A52B576AB000A9DD56 /* Main.storyboard */,
 				B07795A82B576AB200A9DD56 /* Assets.xcassets */,
 				B07795AA2B576AB200A9DD56 /* LaunchScreen.storyboard */,
@@ -158,7 +164,9 @@
 				B07795B42B57A18000A9DD56 /* MyViewController.swift in Sources */,
 				B07795B82B57ACE200A9DD56 /* MyTableViewController.swift in Sources */,
 				B07795BA2B57B6F900A9DD56 /* TodoViewController.swift in Sources */,
+				B07795C22B58AE7100A9DD56 /* ProfileDetailViewController.swift in Sources */,
 				B07795A22B576AB000A9DD56 /* SceneDelegate.swift in Sources */,
+				B07795C02B58ACCF00A9DD56 /* ProfileViewController.swift in Sources */,
 				B07795BE2B57C75C00A9DD56 /* IndigoViewController.swift in Sources */,
 				B07795BC2B57C6F100A9DD56 /* GreenViewController.swift in Sources */,
 			);
