@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B07795D02B67412900A9DD56 /* voiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795CF2B67412900A9DD56 /* voiceMemoApp.swift */; };
-		B07795D22B67412900A9DD56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795D12B67412900A9DD56 /* ContentView.swift */; };
 		B07795D42B67413000A9DD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07795D32B67413000A9DD56 /* Assets.xcassets */; };
 		B07795D72B67413000A9DD56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07795D62B67413000A9DD56 /* Preview Assets.xcassets */; };
 		B07795DE2B6741C500A9DD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07795DD2B6741C500A9DD56 /* LaunchScreen.storyboard */; };
 		B07795E12B67428F00A9DD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795E02B67428F00A9DD56 /* AppDelegate.swift */; };
+		B07795F82B676E1100A9DD56 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795F72B676E1100A9DD56 /* Color+Extensions.swift */; };
+		B07795FA2B67752100A9DD56 /* OnboardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795F92B67752100A9DD56 /* OnboardingContent.swift */; };
+		B07795FC2B6775A600A9DD56 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795FB2B6775A600A9DD56 /* OnboardingViewModel.swift */; };
+		B07796002B67777C00A9DD56 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795FF2B67777C00A9DD56 /* OnboardingView.swift */; };
+		B07796022B6785F100A9DD56 /* PathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796012B6785F100A9DD56 /* PathType.swift */; };
+		B07796042B67862E00A9DD56 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796032B67862E00A9DD56 /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B07795CC2B67412900A9DD56 /* voiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07795CF2B67412900A9DD56 /* voiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voiceMemoApp.swift; sourceTree = "<group>"; };
-		B07795D12B67412900A9DD56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B07795D32B67413000A9DD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07795D62B67413000A9DD56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B07795DD2B6741C500A9DD56 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07795E02B67428F00A9DD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B07795F72B676E1100A9DD56 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B07795F92B67752100A9DD56 /* OnboardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContent.swift; sourceTree = "<group>"; };
+		B07795FB2B6775A600A9DD56 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		B07795FF2B67777C00A9DD56 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B07796012B6785F100A9DD56 /* PathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathType.swift; sourceTree = "<group>"; };
+		B07796032B67862E00A9DD56 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,6 @@
 				B07795E72B67430700A9DD56 /* Component */,
 				B07795E62B6742FD00A9DD56 /* Feature */,
 				B07795E52B6742F800A9DD56 /* Model */,
-				B07795D12B67412900A9DD56 /* ContentView.swift */,
 				B07795D32B67413000A9DD56 /* Assets.xcassets */,
 				B07795D52B67413000A9DD56 /* Preview Content */,
 			);
@@ -104,6 +113,7 @@
 		B07795E42B6742D900A9DD56 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B07795F72B676E1100A9DD56 /* Color+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -168,6 +178,7 @@
 		B07795EB2B67435D00A9DD56 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				B07795FF2B67777C00A9DD56 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -238,6 +249,8 @@
 		B07795F52B6743C200A9DD56 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				B07795F92B67752100A9DD56 /* OnboardingContent.swift */,
+				B07795FB2B6775A600A9DD56 /* OnboardingViewModel.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -245,6 +258,8 @@
 		B07795F62B6743C400A9DD56 /* Path */ = {
 			isa = PBXGroup;
 			children = (
+				B07796032B67862E00A9DD56 /* Path.swift */,
+				B07796012B6785F100A9DD56 /* PathType.swift */,
 			);
 			name = Path;
 			sourceTree = "<group>";
@@ -320,9 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07796042B67862E00A9DD56 /* Path.swift in Sources */,
 				B07795E12B67428F00A9DD56 /* AppDelegate.swift in Sources */,
-				B07795D22B67412900A9DD56 /* ContentView.swift in Sources */,
+				B07795FC2B6775A600A9DD56 /* OnboardingViewModel.swift in Sources */,
+				B07795FA2B67752100A9DD56 /* OnboardingContent.swift in Sources */,
 				B07795D02B67412900A9DD56 /* voiceMemoApp.swift in Sources */,
+				B07795F82B676E1100A9DD56 /* Color+Extensions.swift in Sources */,
+				B07796002B67777C00A9DD56 /* OnboardingView.swift in Sources */,
+				B07796022B6785F100A9DD56 /* PathType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
