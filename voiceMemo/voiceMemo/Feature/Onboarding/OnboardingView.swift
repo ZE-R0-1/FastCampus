@@ -10,18 +10,24 @@ import SwiftUI
 struct OnboadingView: View {
     @StateObject private var pathModel = PathModel()
     @StateObject private var onboardingViewModel = OnboardingViewModel()
+    @StateObject private var todoListViewModel = TodoListViewModel()
     
     var body: some View {
         NavigationStack(path: $pathModel.paths) {
-            OnboardingContentView(onboardingViewModel: onboardingViewModel)
-                .navigationDestination(for: PathType.self, destination: { pathType in
+//            OnboardingContentView(onboardingViewModel: onboardingViewModel)
+            TodoListView()
+                .environmentObject(todoListViewModel)
+                .navigationDestination(
+                    for: PathType.self,
+                    destination: { pathType in
                     switch pathType {
                     case .homeView:
-                        HomeVew()
+                        HomeView()
                             .navigationBarBackButtonHidden()
                     case .todoView:
                         TodoView()
                             .navigationBarBackButtonHidden()
+                            .environmentObject(todoListViewModel)
                     case .memoView:
                         MemoView()
                             .navigationBarBackButtonHidden()
@@ -29,7 +35,7 @@ struct OnboadingView: View {
                 }
             )
         }
-        .environment(pathModel)
+        .environmentObject(pathModel)
     }
 }
 

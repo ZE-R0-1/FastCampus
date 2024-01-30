@@ -18,6 +18,16 @@
 		B07796002B67777C00A9DD56 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07795FF2B67777C00A9DD56 /* OnboardingView.swift */; };
 		B07796022B6785F100A9DD56 /* PathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796012B6785F100A9DD56 /* PathType.swift */; };
 		B07796042B67862E00A9DD56 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796032B67862E00A9DD56 /* Path.swift */; };
+		B07796062B688DF100A9DD56 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796052B688DF100A9DD56 /* Date+Extensions.swift */; };
+		B07796082B688FBE00A9DD56 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796072B688FBE00A9DD56 /* CustomNavigationBar.swift */; };
+		B077960A2B68900E00A9DD56 /* NavigationBtnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796092B68900E00A9DD56 /* NavigationBtnType.swift */; };
+		B077960C2B6893A000A9DD56 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077960B2B6893A000A9DD56 /* Todo.swift */; };
+		B077960E2B68947B00A9DD56 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077960D2B68947B00A9DD56 /* HomeView.swift */; };
+		B07796112B6894E600A9DD56 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796102B6894E600A9DD56 /* TodoView.swift */; };
+		B07796132B6894FE00A9DD56 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796122B6894FE00A9DD56 /* TodoListView.swift */; };
+		B07796152B68955700A9DD56 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796142B68955700A9DD56 /* TodoListViewModel.swift */; };
+		B07796172B68ADCF00A9DD56 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796162B68ADCF00A9DD56 /* MemoView.swift */; };
+		B07796192B68C40E00A9DD56 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796182B68C40E00A9DD56 /* TodoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +43,17 @@
 		B07795FF2B67777C00A9DD56 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B07796012B6785F100A9DD56 /* PathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathType.swift; sourceTree = "<group>"; };
 		B07796032B67862E00A9DD56 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		B07796052B688DF100A9DD56 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		B07796072B688FBE00A9DD56 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		B07796092B68900E00A9DD56 /* NavigationBtnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBtnType.swift; sourceTree = "<group>"; };
+		B077960B2B6893A000A9DD56 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		B077960D2B68947B00A9DD56 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B07796102B6894E600A9DD56 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		B07796122B6894FE00A9DD56 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		B07796142B68955700A9DD56 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		B07796162B68ADCF00A9DD56 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		B07796182B68C40E00A9DD56 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		B077961A2B68CDA300A9DD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +86,7 @@
 		B07795CE2B67412900A9DD56 /* voiceMemo */ = {
 			isa = PBXGroup;
 			children = (
+				B077961A2B68CDA300A9DD56 /* Info.plist */,
 				B07795DF2B6741D400A9DD56 /* App */,
 				B07795E22B6742C000A9DD56 /* Core */,
 				B07795E72B67430700A9DD56 /* Component */,
@@ -114,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				B07795F72B676E1100A9DD56 /* Color+Extensions.swift */,
+				B07796052B688DF100A9DD56 /* Date+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -152,6 +175,8 @@
 		B07795E82B67432C00A9DD56 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				B07796072B688FBE00A9DD56 /* CustomNavigationBar.swift */,
+				B07796092B68900E00A9DD56 /* NavigationBtnType.swift */,
 			);
 			path = NavigationBar;
 			sourceTree = "<group>";
@@ -166,6 +191,7 @@
 		B07795EA2B67435B00A9DD56 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B077960D2B68947B00A9DD56 /* HomeView.swift */,
 				B07795F02B67438700A9DD56 /* TodoList */,
 				B07795EF2B67438500A9DD56 /* MemoList */,
 				B07795EE2B67438000A9DD56 /* VoiceRecorder */,
@@ -207,6 +233,7 @@
 		B07795EF2B67438500A9DD56 /* MemoList */ = {
 			isa = PBXGroup;
 			children = (
+				B07796162B68ADCF00A9DD56 /* MemoView.swift */,
 			);
 			path = MemoList;
 			sourceTree = "<group>";
@@ -214,6 +241,9 @@
 		B07795F02B67438700A9DD56 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				B077960F2B6894DA00A9DD56 /* Todo */,
+				B07796122B6894FE00A9DD56 /* TodoListView.swift */,
+				B07796142B68955700A9DD56 /* TodoListViewModel.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -235,6 +265,7 @@
 		B07795F32B6743BA00A9DD56 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				B077960B2B6893A000A9DD56 /* Todo.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -262,6 +293,15 @@
 				B07796012B6785F100A9DD56 /* PathType.swift */,
 			);
 			name = Path;
+			sourceTree = "<group>";
+		};
+		B077960F2B6894DA00A9DD56 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				B07796102B6894E600A9DD56 /* TodoView.swift */,
+				B07796182B68C40E00A9DD56 /* TodoViewModel.swift */,
+			);
+			path = Todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,10 +375,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07796192B68C40E00A9DD56 /* TodoViewModel.swift in Sources */,
+				B07796152B68955700A9DD56 /* TodoListViewModel.swift in Sources */,
+				B077960A2B68900E00A9DD56 /* NavigationBtnType.swift in Sources */,
 				B07796042B67862E00A9DD56 /* Path.swift in Sources */,
+				B07796132B6894FE00A9DD56 /* TodoListView.swift in Sources */,
+				B07796112B6894E600A9DD56 /* TodoView.swift in Sources */,
+				B077960E2B68947B00A9DD56 /* HomeView.swift in Sources */,
 				B07795E12B67428F00A9DD56 /* AppDelegate.swift in Sources */,
+				B07796062B688DF100A9DD56 /* Date+Extensions.swift in Sources */,
 				B07795FC2B6775A600A9DD56 /* OnboardingViewModel.swift in Sources */,
+				B07796172B68ADCF00A9DD56 /* MemoView.swift in Sources */,
+				B07796082B688FBE00A9DD56 /* CustomNavigationBar.swift in Sources */,
 				B07795FA2B67752100A9DD56 /* OnboardingContent.swift in Sources */,
+				B077960C2B6893A000A9DD56 /* Todo.swift in Sources */,
 				B07795D02B67412900A9DD56 /* voiceMemoApp.swift in Sources */,
 				B07795F82B676E1100A9DD56 /* Color+Extensions.swift in Sources */,
 				B07796002B67777C00A9DD56 /* OnboardingView.swift in Sources */,
@@ -473,7 +523,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"voiceMemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = voiceMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -502,7 +552,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"voiceMemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = voiceMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
