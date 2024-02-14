@@ -34,35 +34,35 @@ struct HomeView: View {
           }
           .tag(Tab.memo)
         
-//        VoiceRecorderView()
-//          .tabItem {
-//            Image(
-//              homeViewModel.selectedTab == .voiceRecorder
-//              ? "recordIcon_selected"
-//              : "recordIcon"
-//            )
-//          }
-//          .tag(Tab.voiceRecorder)
-//
-//        TimerView()
-//          .tabItem {
-//            Image(
-//              homeViewModel.selectedTab == .timer
-//              ? "timerIcon_selected"
-//              : "timerIcon"
-//            )
-//          }
-//          .tag(Tab.timer)
-//
-//        SettingView()
-//          .tabItem {
-//            Image(
-//              homeViewModel.selectedTab == .setting
-//              ? "settingIcon_selected"
-//              : "settingIcon"
-//            )
-//          }
-//          .tag(Tab.setting)
+        VoiceRecorderView()
+          .tabItem {
+            Image(
+              homeViewModel.selectedTab == .voiceRecorder
+              ? "recordIcon_selected"
+              : "recordIcon"
+            )
+          }
+          .tag(Tab.voiceRecorder)
+        
+        TimerView()
+          .tabItem {
+            Image(
+              homeViewModel.selectedTab == .timer
+              ? "timerIcon_selected"
+              : "timerIcon"
+            )
+          }
+          .tag(Tab.timer)
+        
+        SettingView()
+          .tabItem {
+            Image(
+              homeViewModel.selectedTab == .setting
+              ? "settingIcon_selected"
+              : "settingIcon"
+            )
+          }
+          .tag(Tab.setting)
       }
       .environmentObject(homeViewModel)
       

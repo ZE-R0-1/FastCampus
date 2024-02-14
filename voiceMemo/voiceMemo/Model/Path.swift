@@ -8,9 +8,9 @@
 import Foundation
 
 class PathModel: ObservableObject {
-    @Published var paths: [PathType]
-    
-    init(paths: [PathType] = []) {
-        self.paths = paths
-    }
+  @Published var paths: [PathType]
+  
+  init(paths: [PathType] = []) {
+    self.paths = paths
+  }
 }
