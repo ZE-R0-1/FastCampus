@@ -43,6 +43,7 @@
 		B077963D2B7067BC00A9DD56 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077963C2B7067BC00A9DD56 /* TimerView.swift */; };
 		B077963F2B70777400A9DD56 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B077963E2B70777400A9DD56 /* NotificationService.swift */; };
 		B07796412B7CB0AD00A9DD56 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796402B7CB0AD00A9DD56 /* SettingView.swift */; };
+		B07796432B7DF58B00A9DD56 /* WriteBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796422B7DF58B00A9DD56 /* WriteBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		B077963C2B7067BC00A9DD56 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		B077963E2B70777400A9DD56 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B07796402B7CB0AD00A9DD56 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		B07796422B7DF58B00A9DD56 /* WriteBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		B07795E92B67433000A9DD56 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				B07796422B7DF58B00A9DD56 /* WriteBtn.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				B077960A2B68900E00A9DD56 /* NavigationBtnType.swift in Sources */,
 				B07796042B67862E00A9DD56 /* Path.swift in Sources */,
 				B07796132B6894FE00A9DD56 /* TodoListView.swift in Sources */,
+				B07796432B7DF58B00A9DD56 /* WriteBtn.swift in Sources */,
 				B077963B2B7063DA00A9DD56 /* TimerViewModel.swift in Sources */,
 				B07796112B6894E600A9DD56 /* TodoView.swift in Sources */,
 				B077963F2B70777400A9DD56 /* NotificationService.swift in Sources */,
