@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  ViewController.swift
 //  KTV
 //
 //  Created by KMUSER on 2024/02/16.
@@ -7,20 +7,21 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
-  @IBOutlet weak var imageView: UIImageView!
-  @IBOutlet weak var loginButton: UIButton!
+class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    self.loginButton.layer.cornerRadius = 19
-    self.loginButton.layer.borderColor = UIColor(named: "main-brown")?.cgColor
-    self.loginButton.layer.borderWidth = 1
+    // Do any additional setup after loading the view.
   }
-  
   
   @IBAction func buttonDidTap(_ sender: Any) {
+    print("button did tap")
   }
+  
+  @IBAction func upperButtonDidTap(_ sender: Any) {
+    print("upper button did tap")
+  }
+  
+  
 }
 

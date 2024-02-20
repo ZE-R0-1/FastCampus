@@ -16,7 +16,6 @@
 		B07796682B7F540500A9DD56 /* KTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796672B7F540500A9DD56 /* KTVTests.swift */; };
 		B07796722B7F540500A9DD56 /* KTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796712B7F540500A9DD56 /* KTVUITests.swift */; };
 		B07796742B7F540500A9DD56 /* KTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796732B7F540500A9DD56 /* KTVUITestsLaunchTests.swift */; };
-		B07796812B83460600A9DD56 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07796802B83460600A9DD56 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		B077966D2B7F540500A9DD56 /* KTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07796712B7F540500A9DD56 /* KTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVUITests.swift; sourceTree = "<group>"; };
 		B07796732B7F540500A9DD56 /* KTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B07796802B83460600A9DD56 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				B07796592B7F540400A9DD56 /* Assets.xcassets */,
 				B077965B2B7F540400A9DD56 /* LaunchScreen.storyboard */,
 				B077965E2B7F540400A9DD56 /* Info.plist */,
-				B07796802B83460600A9DD56 /* Colors.xcassets */,
 			);
 			path = KTV;
 			sourceTree = "<group>";
@@ -235,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B077965D2B7F540400A9DD56 /* LaunchScreen.storyboard in Resources */,
-				B07796812B83460600A9DD56 /* Colors.xcassets in Resources */,
 				B077965A2B7F540400A9DD56 /* Assets.xcassets in Resources */,
 				B07796582B7F540200A9DD56 /* Main.storyboard in Resources */,
 			);
