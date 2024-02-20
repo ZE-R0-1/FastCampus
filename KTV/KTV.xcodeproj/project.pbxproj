@@ -7,68 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B07796512B7F540200A9DD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796502B7F540200A9DD56 /* AppDelegate.swift */; };
-		B07796532B7F540200A9DD56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796522B7F540200A9DD56 /* SceneDelegate.swift */; };
-		B07796552B7F540200A9DD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796542B7F540200A9DD56 /* ViewController.swift */; };
-		B077965A2B7F540400A9DD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07796592B7F540400A9DD56 /* Assets.xcassets */; };
-		B077965D2B7F540400A9DD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B077965B2B7F540400A9DD56 /* LaunchScreen.storyboard */; };
-		B07796682B7F540500A9DD56 /* KTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796672B7F540500A9DD56 /* KTVTests.swift */; };
-		B07796722B7F540500A9DD56 /* KTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796712B7F540500A9DD56 /* KTVUITests.swift */; };
-		B07796742B7F540500A9DD56 /* KTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07796732B7F540500A9DD56 /* KTVUITestsLaunchTests.swift */; };
-		B07796832B845F2100A9DD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07796822B845F2100A9DD56 /* Main.storyboard */; };
-		B07796852B845FCB00A9DD56 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07796842B845FCB00A9DD56 /* Colors.xcassets */; };
+		B0A430C92B84685A00D19076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430C82B84685A00D19076 /* AppDelegate.swift */; };
+		B0A430CB2B84685A00D19076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430CA2B84685A00D19076 /* SceneDelegate.swift */; };
+		B0A430CD2B84685A00D19076 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430CC2B84685A00D19076 /* LoginViewController.swift */; };
+		B0A430D02B84685A00D19076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A430CE2B84685A00D19076 /* Main.storyboard */; };
+		B0A430D22B84685B00D19076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A430D12B84685B00D19076 /* Assets.xcassets */; };
+		B0A430D52B84685B00D19076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A430D32B84685B00D19076 /* LaunchScreen.storyboard */; };
+		B0A430E02B84685C00D19076 /* KTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430DF2B84685C00D19076 /* KTVTests.swift */; };
+		B0A430EA2B84685C00D19076 /* KTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430E92B84685C00D19076 /* KTVUITests.swift */; };
+		B0A430EC2B84685C00D19076 /* KTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430EB2B84685C00D19076 /* KTVUITestsLaunchTests.swift */; };
+		B0A430F92B8468A700D19076 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A430F82B8468A700D19076 /* Colors.xcassets */; };
+		B0A430FD2B84708E00D19076 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A430FC2B84708E00D19076 /* HomeViewController.swift */; };
+		B0A431032B84715600D19076 /* HomeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431012B84715600D19076 /* HomeVideoCell.swift */; };
+		B0A431042B84715600D19076 /* HomeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A431022B84715600D19076 /* HomeVideoCell.xib */; };
+		B0A431062B84825800D19076 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431052B84825800D19076 /* HomeSection.swift */; };
+		B0A4310A2B848C7000D19076 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431092B848C6F00D19076 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B07796642B7F540500A9DD56 /* PBXContainerItemProxy */ = {
+		B0A430DC2B84685C00D19076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B07796452B7F540200A9DD56 /* Project object */;
+			containerPortal = B0A430BD2B84685A00D19076 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B077964C2B7F540200A9DD56;
+			remoteGlobalIDString = B0A430C42B84685A00D19076;
 			remoteInfo = KTV;
 		};
-		B077966E2B7F540500A9DD56 /* PBXContainerItemProxy */ = {
+		B0A430E62B84685C00D19076 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B07796452B7F540200A9DD56 /* Project object */;
+			containerPortal = B0A430BD2B84685A00D19076 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B077964C2B7F540200A9DD56;
+			remoteGlobalIDString = B0A430C42B84685A00D19076;
 			remoteInfo = KTV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B077964D2B7F540200A9DD56 /* KTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B07796502B7F540200A9DD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B07796522B7F540200A9DD56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B07796542B7F540200A9DD56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B07796592B7F540400A9DD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B077965C2B7F540400A9DD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B077965E2B7F540400A9DD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B07796632B7F540500A9DD56 /* KTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B07796672B7F540500A9DD56 /* KTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVTests.swift; sourceTree = "<group>"; };
-		B077966D2B7F540500A9DD56 /* KTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B07796712B7F540500A9DD56 /* KTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVUITests.swift; sourceTree = "<group>"; };
-		B07796732B7F540500A9DD56 /* KTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B07796822B845F2100A9DD56 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B07796842B845FCB00A9DD56 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B0A430C52B84685A00D19076 /* KTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A430C82B84685A00D19076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0A430CA2B84685A00D19076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0A430CC2B84685A00D19076 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0A430CF2B84685A00D19076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0A430D12B84685B00D19076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A430D42B84685B00D19076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0A430D62B84685B00D19076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A430DB2B84685C00D19076 /* KTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A430DF2B84685C00D19076 /* KTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVTests.swift; sourceTree = "<group>"; };
+		B0A430E52B84685C00D19076 /* KTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A430E92B84685C00D19076 /* KTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVUITests.swift; sourceTree = "<group>"; };
+		B0A430EB2B84685C00D19076 /* KTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0A430F82B8468A700D19076 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B0A430FC2B84708E00D19076 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B0A431012B84715600D19076 /* HomeVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVideoCell.swift; sourceTree = "<group>"; };
+		B0A431022B84715600D19076 /* HomeVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVideoCell.xib; sourceTree = "<group>"; };
+		B0A431052B84825800D19076 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
+		B0A431092B848C6F00D19076 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B077964A2B7F540200A9DD56 /* Frameworks */ = {
+		B0A430C22B84685A00D19076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B07796602B7F540500A9DD56 /* Frameworks */ = {
+		B0A430D82B84685C00D19076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B077966A2B7F540500A9DD56 /* Frameworks */ = {
+		B0A430E22B84685C00D19076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,68 +88,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B07796442B7F540200A9DD56 = {
+		B0A430BC2B84685A00D19076 = {
 			isa = PBXGroup;
 			children = (
-				B077964F2B7F540200A9DD56 /* KTV */,
-				B07796662B7F540500A9DD56 /* KTVTests */,
-				B07796702B7F540500A9DD56 /* KTVUITests */,
-				B077964E2B7F540200A9DD56 /* Products */,
+				B0A430C72B84685A00D19076 /* KTV */,
+				B0A430DE2B84685C00D19076 /* KTVTests */,
+				B0A430E82B84685C00D19076 /* KTVUITests */,
+				B0A430C62B84685A00D19076 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B077964E2B7F540200A9DD56 /* Products */ = {
+		B0A430C62B84685A00D19076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B077964D2B7F540200A9DD56 /* KTV.app */,
-				B07796632B7F540500A9DD56 /* KTVTests.xctest */,
-				B077966D2B7F540500A9DD56 /* KTVUITests.xctest */,
+				B0A430C52B84685A00D19076 /* KTV.app */,
+				B0A430DB2B84685C00D19076 /* KTVTests.xctest */,
+				B0A430E52B84685C00D19076 /* KTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B077964F2B7F540200A9DD56 /* KTV */ = {
+		B0A430C72B84685A00D19076 /* KTV */ = {
 			isa = PBXGroup;
 			children = (
-				B07796502B7F540200A9DD56 /* AppDelegate.swift */,
-				B07796522B7F540200A9DD56 /* SceneDelegate.swift */,
-				B07796542B7F540200A9DD56 /* ViewController.swift */,
-				B07796822B845F2100A9DD56 /* Main.storyboard */,
-				B07796592B7F540400A9DD56 /* Assets.xcassets */,
-				B07796842B845FCB00A9DD56 /* Colors.xcassets */,
-				B077965B2B7F540400A9DD56 /* LaunchScreen.storyboard */,
-				B077965E2B7F540400A9DD56 /* Info.plist */,
+				B0A430FB2B84708100D19076 /* Home */,
+				B0A430FA2B84707800D19076 /* Login */,
+				B0A430C82B84685A00D19076 /* AppDelegate.swift */,
+				B0A430CA2B84685A00D19076 /* SceneDelegate.swift */,
+				B0A430CE2B84685A00D19076 /* Main.storyboard */,
+				B0A430D12B84685B00D19076 /* Assets.xcassets */,
+				B0A430D32B84685B00D19076 /* LaunchScreen.storyboard */,
+				B0A430D62B84685B00D19076 /* Info.plist */,
+				B0A430F82B8468A700D19076 /* Colors.xcassets */,
 			);
 			path = KTV;
 			sourceTree = "<group>";
 		};
-		B07796662B7F540500A9DD56 /* KTVTests */ = {
+		B0A430DE2B84685C00D19076 /* KTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				B07796672B7F540500A9DD56 /* KTVTests.swift */,
+				B0A430DF2B84685C00D19076 /* KTVTests.swift */,
 			);
 			path = KTVTests;
 			sourceTree = "<group>";
 		};
-		B07796702B7F540500A9DD56 /* KTVUITests */ = {
+		B0A430E82B84685C00D19076 /* KTVUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B07796712B7F540500A9DD56 /* KTVUITests.swift */,
-				B07796732B7F540500A9DD56 /* KTVUITestsLaunchTests.swift */,
+				B0A430E92B84685C00D19076 /* KTVUITests.swift */,
+				B0A430EB2B84685C00D19076 /* KTVUITestsLaunchTests.swift */,
 			);
 			path = KTVUITests;
+			sourceTree = "<group>";
+		};
+		B0A430FA2B84707800D19076 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B0A430CC2B84685A00D19076 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B0A430FB2B84708100D19076 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0A430FE2B8470EA00D19076 /* Cell */,
+				B0A430FC2B84708E00D19076 /* HomeViewController.swift */,
+				B0A431052B84825800D19076 /* HomeSection.swift */,
+				B0A431092B848C6F00D19076 /* TabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0A430FE2B8470EA00D19076 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B0A431012B84715600D19076 /* HomeVideoCell.swift */,
+				B0A431022B84715600D19076 /* HomeVideoCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B077964C2B7F540200A9DD56 /* KTV */ = {
+		B0A430C42B84685A00D19076 /* KTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B07796772B7F540500A9DD56 /* Build configuration list for PBXNativeTarget "KTV" */;
+			buildConfigurationList = B0A430EF2B84685C00D19076 /* Build configuration list for PBXNativeTarget "KTV" */;
 			buildPhases = (
-				B07796492B7F540200A9DD56 /* Sources */,
-				B077964A2B7F540200A9DD56 /* Frameworks */,
-				B077964B2B7F540200A9DD56 /* Resources */,
+				B0A430C12B84685A00D19076 /* Sources */,
+				B0A430C22B84685A00D19076 /* Frameworks */,
+				B0A430C32B84685A00D19076 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +186,69 @@
 			);
 			name = KTV;
 			productName = KTV;
-			productReference = B077964D2B7F540200A9DD56 /* KTV.app */;
+			productReference = B0A430C52B84685A00D19076 /* KTV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B07796622B7F540500A9DD56 /* KTVTests */ = {
+		B0A430DA2B84685C00D19076 /* KTVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B077967A2B7F540500A9DD56 /* Build configuration list for PBXNativeTarget "KTVTests" */;
+			buildConfigurationList = B0A430F22B84685C00D19076 /* Build configuration list for PBXNativeTarget "KTVTests" */;
 			buildPhases = (
-				B077965F2B7F540500A9DD56 /* Sources */,
-				B07796602B7F540500A9DD56 /* Frameworks */,
-				B07796612B7F540500A9DD56 /* Resources */,
+				B0A430D72B84685C00D19076 /* Sources */,
+				B0A430D82B84685C00D19076 /* Frameworks */,
+				B0A430D92B84685C00D19076 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B07796652B7F540500A9DD56 /* PBXTargetDependency */,
+				B0A430DD2B84685C00D19076 /* PBXTargetDependency */,
 			);
 			name = KTVTests;
 			productName = KTVTests;
-			productReference = B07796632B7F540500A9DD56 /* KTVTests.xctest */;
+			productReference = B0A430DB2B84685C00D19076 /* KTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B077966C2B7F540500A9DD56 /* KTVUITests */ = {
+		B0A430E42B84685C00D19076 /* KTVUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B077967D2B7F540500A9DD56 /* Build configuration list for PBXNativeTarget "KTVUITests" */;
+			buildConfigurationList = B0A430F52B84685C00D19076 /* Build configuration list for PBXNativeTarget "KTVUITests" */;
 			buildPhases = (
-				B07796692B7F540500A9DD56 /* Sources */,
-				B077966A2B7F540500A9DD56 /* Frameworks */,
-				B077966B2B7F540500A9DD56 /* Resources */,
+				B0A430E12B84685C00D19076 /* Sources */,
+				B0A430E22B84685C00D19076 /* Frameworks */,
+				B0A430E32B84685C00D19076 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B077966F2B7F540500A9DD56 /* PBXTargetDependency */,
+				B0A430E72B84685C00D19076 /* PBXTargetDependency */,
 			);
 			name = KTVUITests;
 			productName = KTVUITests;
-			productReference = B077966D2B7F540500A9DD56 /* KTVUITests.xctest */;
+			productReference = B0A430E52B84685C00D19076 /* KTVUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B07796452B7F540200A9DD56 /* Project object */ = {
+		B0A430BD2B84685A00D19076 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B077964C2B7F540200A9DD56 = {
+					B0A430C42B84685A00D19076 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					B07796622B7F540500A9DD56 = {
+					B0A430DA2B84685C00D19076 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B077964C2B7F540200A9DD56;
+						TestTargetID = B0A430C42B84685A00D19076;
 					};
-					B077966C2B7F540500A9DD56 = {
+					B0A430E42B84685C00D19076 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B077964C2B7F540200A9DD56;
+						TestTargetID = B0A430C42B84685A00D19076;
 					};
 				};
 			};
-			buildConfigurationList = B07796482B7F540200A9DD56 /* Build configuration list for PBXProject "KTV" */;
+			buildConfigurationList = B0A430C02B84685A00D19076 /* Build configuration list for PBXProject "KTV" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,38 +256,39 @@
 				en,
 				Base,
 			);
-			mainGroup = B07796442B7F540200A9DD56;
-			productRefGroup = B077964E2B7F540200A9DD56 /* Products */;
+			mainGroup = B0A430BC2B84685A00D19076;
+			productRefGroup = B0A430C62B84685A00D19076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B077964C2B7F540200A9DD56 /* KTV */,
-				B07796622B7F540500A9DD56 /* KTVTests */,
-				B077966C2B7F540500A9DD56 /* KTVUITests */,
+				B0A430C42B84685A00D19076 /* KTV */,
+				B0A430DA2B84685C00D19076 /* KTVTests */,
+				B0A430E42B84685C00D19076 /* KTVUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B077964B2B7F540200A9DD56 /* Resources */ = {
+		B0A430C32B84685A00D19076 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B077965D2B7F540400A9DD56 /* LaunchScreen.storyboard in Resources */,
-				B07796852B845FCB00A9DD56 /* Colors.xcassets in Resources */,
-				B077965A2B7F540400A9DD56 /* Assets.xcassets in Resources */,
-				B07796832B845F2100A9DD56 /* Main.storyboard in Resources */,
+				B0A430D52B84685B00D19076 /* LaunchScreen.storyboard in Resources */,
+				B0A430F92B8468A700D19076 /* Colors.xcassets in Resources */,
+				B0A430D22B84685B00D19076 /* Assets.xcassets in Resources */,
+				B0A431042B84715600D19076 /* HomeVideoCell.xib in Resources */,
+				B0A430D02B84685A00D19076 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B07796612B7F540500A9DD56 /* Resources */ = {
+		B0A430D92B84685C00D19076 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B077966B2B7F540500A9DD56 /* Resources */ = {
+		B0A430E32B84685C00D19076 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,53 +298,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B07796492B7F540200A9DD56 /* Sources */ = {
+		B0A430C12B84685A00D19076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07796552B7F540200A9DD56 /* ViewController.swift in Sources */,
-				B07796512B7F540200A9DD56 /* AppDelegate.swift in Sources */,
-				B07796532B7F540200A9DD56 /* SceneDelegate.swift in Sources */,
+				B0A430CD2B84685A00D19076 /* LoginViewController.swift in Sources */,
+				B0A430C92B84685A00D19076 /* AppDelegate.swift in Sources */,
+				B0A431062B84825800D19076 /* HomeSection.swift in Sources */,
+				B0A430CB2B84685A00D19076 /* SceneDelegate.swift in Sources */,
+				B0A4310A2B848C7000D19076 /* TabBarController.swift in Sources */,
+				B0A431032B84715600D19076 /* HomeVideoCell.swift in Sources */,
+				B0A430FD2B84708E00D19076 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B077965F2B7F540500A9DD56 /* Sources */ = {
+		B0A430D72B84685C00D19076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07796682B7F540500A9DD56 /* KTVTests.swift in Sources */,
+				B0A430E02B84685C00D19076 /* KTVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B07796692B7F540500A9DD56 /* Sources */ = {
+		B0A430E12B84685C00D19076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07796742B7F540500A9DD56 /* KTVUITestsLaunchTests.swift in Sources */,
-				B07796722B7F540500A9DD56 /* KTVUITests.swift in Sources */,
+				B0A430EC2B84685C00D19076 /* KTVUITestsLaunchTests.swift in Sources */,
+				B0A430EA2B84685C00D19076 /* KTVUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B07796652B7F540500A9DD56 /* PBXTargetDependency */ = {
+		B0A430DD2B84685C00D19076 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B077964C2B7F540200A9DD56 /* KTV */;
-			targetProxy = B07796642B7F540500A9DD56 /* PBXContainerItemProxy */;
+			target = B0A430C42B84685A00D19076 /* KTV */;
+			targetProxy = B0A430DC2B84685C00D19076 /* PBXContainerItemProxy */;
 		};
-		B077966F2B7F540500A9DD56 /* PBXTargetDependency */ = {
+		B0A430E72B84685C00D19076 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B077964C2B7F540200A9DD56 /* KTV */;
-			targetProxy = B077966E2B7F540500A9DD56 /* PBXContainerItemProxy */;
+			target = B0A430C42B84685A00D19076 /* KTV */;
+			targetProxy = B0A430E62B84685C00D19076 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B077965B2B7F540400A9DD56 /* LaunchScreen.storyboard */ = {
+		B0A430CE2B84685A00D19076 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B077965C2B7F540400A9DD56 /* Base */,
+				B0A430CF2B84685A00D19076 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0A430D32B84685B00D19076 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A430D42B84685B00D19076 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +364,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B07796752B7F540500A9DD56 /* Debug */ = {
+		B0A430ED2B84685C00D19076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		B07796762B7F540500A9DD56 /* Release */ = {
+		B0A430EE2B84685C00D19076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,7 +478,7 @@
 			};
 			name = Release;
 		};
-		B07796782B7F540500A9DD56 /* Debug */ = {
+		B0A430F02B84685C00D19076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -440,7 +492,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +505,7 @@
 			};
 			name = Debug;
 		};
-		B07796792B7F540500A9DD56 /* Release */ = {
+		B0A430F12B84685C00D19076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,7 +519,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +532,7 @@
 			};
 			name = Release;
 		};
-		B077967B2B7F540500A9DD56 /* Debug */ = {
+		B0A430F32B84685C00D19076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,7 +551,7 @@
 			};
 			name = Debug;
 		};
-		B077967C2B7F540500A9DD56 /* Release */ = {
+		B0A430F42B84685C00D19076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -520,7 +570,7 @@
 			};
 			name = Release;
 		};
-		B077967E2B7F540500A9DD56 /* Debug */ = {
+		B0A430F62B84685C00D19076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,7 +587,7 @@
 			};
 			name = Debug;
 		};
-		B077967F2B7F540500A9DD56 /* Release */ = {
+		B0A430F72B84685C00D19076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -557,43 +607,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B07796482B7F540200A9DD56 /* Build configuration list for PBXProject "KTV" */ = {
+		B0A430C02B84685A00D19076 /* Build configuration list for PBXProject "KTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B07796752B7F540500A9DD56 /* Debug */,
-				B07796762B7F540500A9DD56 /* Release */,
+				B0A430ED2B84685C00D19076 /* Debug */,
+				B0A430EE2B84685C00D19076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B07796772B7F540500A9DD56 /* Build configuration list for PBXNativeTarget "KTV" */ = {
+		B0A430EF2B84685C00D19076 /* Build configuration list for PBXNativeTarget "KTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B07796782B7F540500A9DD56 /* Debug */,
-				B07796792B7F540500A9DD56 /* Release */,
+				B0A430F02B84685C00D19076 /* Debug */,
+				B0A430F12B84685C00D19076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B077967A2B7F540500A9DD56 /* Build configuration list for PBXNativeTarget "KTVTests" */ = {
+		B0A430F22B84685C00D19076 /* Build configuration list for PBXNativeTarget "KTVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B077967B2B7F540500A9DD56 /* Debug */,
-				B077967C2B7F540500A9DD56 /* Release */,
+				B0A430F32B84685C00D19076 /* Debug */,
+				B0A430F42B84685C00D19076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B077967D2B7F540500A9DD56 /* Build configuration list for PBXNativeTarget "KTVUITests" */ = {
+		B0A430F52B84685C00D19076 /* Build configuration list for PBXNativeTarget "KTVUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B077967E2B7F540500A9DD56 /* Debug */,
-				B077967F2B7F540500A9DD56 /* Release */,
+				B0A430F62B84685C00D19076 /* Debug */,
+				B0A430F72B84685C00D19076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B07796452B7F540200A9DD56 /* Project object */;
+	rootObject = B0A430BD2B84685A00D19076 /* Project object */;
 }
