@@ -2,12 +2,14 @@
 //  HomeSection.swift
 //  KTV
 //
-//  Created by KMUSER on 2024/02/20.
+//  Created by Lecture on 2023/09/08.
 //
 
 import Foundation
 
 enum HomeSection: Int, CaseIterable {
-    
+    case header
     case video
+    case recommend
+    case footer
 }

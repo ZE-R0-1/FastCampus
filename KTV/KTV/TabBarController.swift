@@ -8,7 +8,7 @@
 import UIKit
 
 class TabBarController: UITabBarController {
-
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask { .portrait }
     
     override func viewDidLoad() {
@@ -16,7 +16,6 @@ class TabBarController: UITabBarController {
 
         // Do any additional setup after loading the view.
     }
-    
 
     /*
     // MARK: - Navigation

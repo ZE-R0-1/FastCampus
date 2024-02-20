@@ -13,10 +13,13 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.loginButton.layer.cornerRadius = 19
+        self.loginButton.layer.borderColor = UIColor(named: "main-brown")?.cgColor
+        self.loginButton.layer.borderWidth = 1
     }
-
+    
     @IBAction func loginDidTap(_ sender: Any) {
-      self.view.window?.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "tabbar")
+        self.view.window?.rootViewController =  self.storyboard?.instantiateViewController(withIdentifier: "tabbar")
     }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {

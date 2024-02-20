@@ -21,7 +21,16 @@
 		B0A431032B84715600D19076 /* HomeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431012B84715600D19076 /* HomeVideoCell.swift */; };
 		B0A431042B84715600D19076 /* HomeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A431022B84715600D19076 /* HomeVideoCell.xib */; };
 		B0A431062B84825800D19076 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431052B84825800D19076 /* HomeSection.swift */; };
-		B0A4310A2B848C7000D19076 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431092B848C6F00D19076 /* TabBarController.swift */; };
+		B0A4310D2B8490C400D19076 /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4310B2B8490C400D19076 /* HomeHeaderCell.swift */; };
+		B0A4310E2B8490C400D19076 /* HomeHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A4310C2B8490C400D19076 /* HomeHeaderCell.xib */; };
+		B0A431112B84912A00D19076 /* HomeRecommendContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4310F2B84912A00D19076 /* HomeRecommendContainerCell.swift */; };
+		B0A431122B84912A00D19076 /* HomeRecommendContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A431102B84912A00D19076 /* HomeRecommendContainerCell.xib */; };
+		B0A431152B84914100D19076 /* HomeRecommendItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431132B84914100D19076 /* HomeRecommendItemCell.swift */; };
+		B0A431162B84914100D19076 /* HomeRecommendItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A431142B84914100D19076 /* HomeRecommendItemCell.xib */; };
+		B0A431192B84915500D19076 /* HomeFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A431172B84915500D19076 /* HomeFooterCell.swift */; };
+		B0A4311A2B84915500D19076 /* HomeFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A431182B84915500D19076 /* HomeFooterCell.xib */; };
+		B0A4311C2B84924300D19076 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4311B2B84924300D19076 /* TabBarController.swift */; };
+		B0A4311E2B84929500D19076 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4311D2B84929500D19076 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +69,16 @@
 		B0A431012B84715600D19076 /* HomeVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVideoCell.swift; sourceTree = "<group>"; };
 		B0A431022B84715600D19076 /* HomeVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVideoCell.xib; sourceTree = "<group>"; };
 		B0A431052B84825800D19076 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
-		B0A431092B848C6F00D19076 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B0A4310B2B8490C400D19076 /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
+		B0A4310C2B8490C400D19076 /* HomeHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeaderCell.xib; sourceTree = "<group>"; };
+		B0A4310F2B84912A00D19076 /* HomeRecommendContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendContainerCell.swift; sourceTree = "<group>"; };
+		B0A431102B84912A00D19076 /* HomeRecommendContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRecommendContainerCell.xib; sourceTree = "<group>"; };
+		B0A431132B84914100D19076 /* HomeRecommendItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendItemCell.swift; sourceTree = "<group>"; };
+		B0A431142B84914100D19076 /* HomeRecommendItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRecommendItemCell.xib; sourceTree = "<group>"; };
+		B0A431172B84915500D19076 /* HomeFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFooterCell.swift; sourceTree = "<group>"; };
+		B0A431182B84915500D19076 /* HomeFooterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFooterCell.xib; sourceTree = "<group>"; };
+		B0A4311B2B84924300D19076 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B0A4311D2B84929500D19076 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = Cell/HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +138,7 @@
 				B0A430D32B84685B00D19076 /* LaunchScreen.storyboard */,
 				B0A430D62B84685B00D19076 /* Info.plist */,
 				B0A430F82B8468A700D19076 /* Colors.xcassets */,
+				B0A4311B2B84924300D19076 /* TabBarController.swift */,
 			);
 			path = KTV;
 			sourceTree = "<group>";
@@ -155,7 +174,7 @@
 				B0A430FE2B8470EA00D19076 /* Cell */,
 				B0A430FC2B84708E00D19076 /* HomeViewController.swift */,
 				B0A431052B84825800D19076 /* HomeSection.swift */,
-				B0A431092B848C6F00D19076 /* TabBarController.swift */,
+				B0A4311D2B84929500D19076 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -165,6 +184,14 @@
 			children = (
 				B0A431012B84715600D19076 /* HomeVideoCell.swift */,
 				B0A431022B84715600D19076 /* HomeVideoCell.xib */,
+				B0A4310B2B8490C400D19076 /* HomeHeaderCell.swift */,
+				B0A4310C2B8490C400D19076 /* HomeHeaderCell.xib */,
+				B0A4310F2B84912A00D19076 /* HomeRecommendContainerCell.swift */,
+				B0A431102B84912A00D19076 /* HomeRecommendContainerCell.xib */,
+				B0A431132B84914100D19076 /* HomeRecommendItemCell.swift */,
+				B0A431142B84914100D19076 /* HomeRecommendItemCell.xib */,
+				B0A431172B84915500D19076 /* HomeFooterCell.swift */,
+				B0A431182B84915500D19076 /* HomeFooterCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -274,10 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A430D52B84685B00D19076 /* LaunchScreen.storyboard in Resources */,
+				B0A431122B84912A00D19076 /* HomeRecommendContainerCell.xib in Resources */,
 				B0A430F92B8468A700D19076 /* Colors.xcassets in Resources */,
+				B0A4311A2B84915500D19076 /* HomeFooterCell.xib in Resources */,
 				B0A430D22B84685B00D19076 /* Assets.xcassets in Resources */,
+				B0A431162B84914100D19076 /* HomeRecommendItemCell.xib in Resources */,
 				B0A431042B84715600D19076 /* HomeVideoCell.xib in Resources */,
 				B0A430D02B84685A00D19076 /* Main.storyboard in Resources */,
+				B0A4310E2B8490C400D19076 /* HomeHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,10 +334,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A430CD2B84685A00D19076 /* LoginViewController.swift in Sources */,
+				B0A431192B84915500D19076 /* HomeFooterCell.swift in Sources */,
+				B0A4311C2B84924300D19076 /* TabBarController.swift in Sources */,
+				B0A431112B84912A00D19076 /* HomeRecommendContainerCell.swift in Sources */,
+				B0A431152B84914100D19076 /* HomeRecommendItemCell.swift in Sources */,
+				B0A4310D2B8490C400D19076 /* HomeHeaderCell.swift in Sources */,
 				B0A430C92B84685A00D19076 /* AppDelegate.swift in Sources */,
+				B0A4311E2B84929500D19076 /* HomeViewModel.swift in Sources */,
 				B0A431062B84825800D19076 /* HomeSection.swift in Sources */,
 				B0A430CB2B84685A00D19076 /* SceneDelegate.swift in Sources */,
-				B0A4310A2B848C7000D19076 /* TabBarController.swift in Sources */,
 				B0A431032B84715600D19076 /* HomeVideoCell.swift in Sources */,
 				B0A430FD2B84708E00D19076 /* HomeViewController.swift in Sources */,
 			);
