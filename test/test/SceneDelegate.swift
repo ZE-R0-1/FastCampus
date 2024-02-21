@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  KTV
+//  test
 //
 //  Created by KMUSER on 2024/02/21.
 //

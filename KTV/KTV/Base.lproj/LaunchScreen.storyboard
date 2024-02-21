@@ -12,19 +12,19 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="lmr-Ih-Gd2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="BLV-je-V6g">
                                 <rect key="frame" x="146.66666666666666" y="388.66666666666669" width="100" height="100"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="main-yellow"/>
                         <constraints>
-                            <constraint firstItem="lmr-Ih-Gd2" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="PSW-bb-Lha"/>
-                            <constraint firstItem="lmr-Ih-Gd2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YEq-Il-MB8"/>
+                            <constraint firstItem="BLV-je-V6g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PHT-HZ-n9g"/>
+                            <constraint firstItem="BLV-je-V6g" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="zFj-Px-7Oe"/>
                         </constraints>
                     </view>
                 </viewController>
