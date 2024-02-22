@@ -2,7 +2,7 @@
 //  Home.swift
 //  KTV
 //
-//  Created by KMUSER on 2024/02/21.
+//  Created by Lecture on 2023/09/09.
 //
 
 import Foundation
@@ -46,4 +46,6 @@ extension Home {
         let channel: String
         let videoId: Int
     }
+
 }
+

@@ -2,15 +2,13 @@
 //  LoginViewController.swift
 //  KTV
 //
-//  Created by KMUSER on 2024/02/21.
+//  Created by hyeonggyu.kim on 2023/09/06.
 //
 
 import UIKit
 
 class LoginViewController: UIViewController {
-
     @IBOutlet weak var loginButton: UIButton!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +20,10 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginDidTap(_ sender: Any) {
         self.view.window?.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "tabbar")
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        .portrait
     }
     
 }
