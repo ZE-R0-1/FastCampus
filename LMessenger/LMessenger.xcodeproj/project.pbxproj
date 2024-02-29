@@ -26,6 +26,8 @@
 		B0AC342D2B8F0CA60011AE91 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC342C2B8F0CA60011AE91 /* AuthenticationService.swift */; };
 		B0AC34332B8F24D90011AE91 /* LoginIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34322B8F24D90011AE91 /* LoginIntroView.swift */; };
 		B0AC34352B8F24F80011AE91 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34342B8F24F80011AE91 /* MainTabView.swift */; };
+		B0AC34372B9062E90011AE91 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34362B9062E90011AE91 /* LoginView.swift */; };
+		B0AC34392B9069C80011AE91 /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34382B9069C80011AE91 /* LoginButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		B0AC342C2B8F0CA60011AE91 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		B0AC34322B8F24D90011AE91 /* LoginIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIntroView.swift; sourceTree = "<group>"; };
 		B0AC34342B8F24F80011AE91 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B0AC34362B9062E90011AE91 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B0AC34382B9069C80011AE91 /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				B0AC34322B8F24D90011AE91 /* LoginIntroView.swift */,
+				B0AC34362B9062E90011AE91 /* LoginView.swift */,
+				B0AC34382B9069C80011AE91 /* LoginButtonStyle.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -374,7 +380,9 @@
 				B0AC33E92B8D78810011AE91 /* AuthenticatedView.swift in Sources */,
 				B0AC34292B8F0A8B0011AE91 /* AppDelegate.swift in Sources */,
 				B0AC34172B8D7B7D0011AE91 /* Color+Extension.swift in Sources */,
+				B0AC34392B9069C80011AE91 /* LoginButtonStyle.swift in Sources */,
 				B0AC33E72B8D78810011AE91 /* LMessengerApp.swift in Sources */,
+				B0AC34372B9062E90011AE91 /* LoginView.swift in Sources */,
 				B0AC342D2B8F0CA60011AE91 /* AuthenticationService.swift in Sources */,
 				B0AC34352B8F24F80011AE91 /* MainTabView.swift in Sources */,
 			);
