@@ -32,6 +32,8 @@
 		B0AC343E2B92D9EA0011AE91 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B0AC343D2B92D9EA0011AE91 /* GoogleSignInSwift */; };
 		B0AC34412B92DB5B0011AE91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34402B92DB5B0011AE91 /* User.swift */; };
 		B0AC34432B92DBAF0011AE91 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34422B92DBAF0011AE91 /* ServiceError.swift */; };
+		B0AC34482B9300E20011AE91 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34462B9300E10011AE91 /* SHA256.swift */; };
+		B0AC34492B9300E20011AE91 /* RandomNonceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34472B9300E10011AE91 /* RandomNonceString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		B0AC34402B92DB5B0011AE91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B0AC34422B92DBAF0011AE91 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		B0AC34442B92FDE40011AE91 /* LMessenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LMessenger.entitlements; sourceTree = "<group>"; };
+		B0AC34462B9300E10011AE91 /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		B0AC34472B9300E10011AE91 /* RandomNonceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNonceString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 				B0AC341F2B8DD0BF0011AE91 /* View */,
 				B0AC343F2B92DB400011AE91 /* Model */,
 				B0AC341C2B8DD01B0011AE91 /* Service */,
+				B0AC34452B9300AF0011AE91 /* Util */,
 				B0AC34152B8D7B640011AE91 /* Extension */,
 				B0AC34142B8D79E30011AE91 /* Resource */,
 				B0AC33EC2B8D78830011AE91 /* Preview Content */,
@@ -252,6 +257,15 @@
 				B0AC34402B92DB5B0011AE91 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B0AC34452B9300AF0011AE91 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B0AC34472B9300E10011AE91 /* RandomNonceString.swift */,
+				B0AC34462B9300E10011AE91 /* SHA256.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,7 +421,9 @@
 				B0AC34392B9069C80011AE91 /* LoginButtonStyle.swift in Sources */,
 				B0AC33E72B8D78810011AE91 /* LMessengerApp.swift in Sources */,
 				B0AC34372B9062E90011AE91 /* LoginView.swift in Sources */,
+				B0AC34482B9300E20011AE91 /* SHA256.swift in Sources */,
 				B0AC342D2B8F0CA60011AE91 /* AuthenticationService.swift in Sources */,
+				B0AC34492B9300E20011AE91 /* RandomNonceString.swift in Sources */,
 				B0AC34432B92DBAF0011AE91 /* ServiceError.swift in Sources */,
 				B0AC34352B8F24F80011AE91 /* MainTabView.swift in Sources */,
 			);
