@@ -34,6 +34,9 @@
 		B0AC34432B92DBAF0011AE91 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34422B92DBAF0011AE91 /* ServiceError.swift */; };
 		B0AC34482B9300E20011AE91 /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34462B9300E10011AE91 /* SHA256.swift */; };
 		B0AC34492B9300E20011AE91 /* RandomNonceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34472B9300E10011AE91 /* RandomNonceString.swift */; };
+		B0AC344B2B95A25E0011AE91 /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC344A2B95A25E0011AE91 /* MainTabType.swift */; };
+		B0AC344F2B95A3E40011AE91 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC344E2B95A3E40011AE91 /* HomeView.swift */; };
+		B0AC34512B95A3FB0011AE91 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34502B95A3FB0011AE91 /* ChatListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		B0AC34442B92FDE40011AE91 /* LMessenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LMessenger.entitlements; sourceTree = "<group>"; };
 		B0AC34462B9300E10011AE91 /* SHA256.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
 		B0AC34472B9300E10011AE91 /* RandomNonceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNonceString.swift; sourceTree = "<group>"; };
+		B0AC344A2B95A25E0011AE91 /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
+		B0AC344E2B95A3E40011AE91 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0AC34502B95A3FB0011AE91 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +243,9 @@
 			isa = PBXGroup;
 			children = (
 				B0AC34342B8F24F80011AE91 /* MainTabView.swift */,
+				B0AC344A2B95A25E0011AE91 /* MainTabType.swift */,
+				B0AC344D2B95A3D10011AE91 /* ChatList */,
+				B0AC344C2B95A3C70011AE91 /* Home */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -266,6 +275,22 @@
 				B0AC34462B9300E10011AE91 /* SHA256.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		B0AC344C2B95A3C70011AE91 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0AC344E2B95A3E40011AE91 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0AC344D2B95A3D10011AE91 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				B0AC34502B95A3FB0011AE91 /* ChatListView.swift */,
+			);
+			path = ChatList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,13 +436,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0AC34412B92DB5B0011AE91 /* User.swift in Sources */,
+				B0AC344B2B95A25E0011AE91 /* MainTabType.swift in Sources */,
 				B0AC34332B8F24D90011AE91 /* LoginIntroView.swift in Sources */,
 				B0AC34222B8DD0F00011AE91 /* AuthenticationViewModel.swift in Sources */,
 				B0AC341E2B8DD0350011AE91 /* Services.swift in Sources */,
 				B0AC341B2B8DD0010011AE91 /* DIContainer.swift in Sources */,
 				B0AC33E92B8D78810011AE91 /* AuthenticatedView.swift in Sources */,
 				B0AC34292B8F0A8B0011AE91 /* AppDelegate.swift in Sources */,
+				B0AC34512B95A3FB0011AE91 /* ChatListView.swift in Sources */,
 				B0AC34172B8D7B7D0011AE91 /* Color+Extension.swift in Sources */,
+				B0AC344F2B95A3E40011AE91 /* HomeView.swift in Sources */,
 				B0AC34392B9069C80011AE91 /* LoginButtonStyle.swift in Sources */,
 				B0AC33E72B8D78810011AE91 /* LMessengerApp.swift in Sources */,
 				B0AC34372B9062E90011AE91 /* LoginView.swift in Sources */,

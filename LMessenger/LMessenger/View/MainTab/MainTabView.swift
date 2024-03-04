@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct MainTabView: View {
+    @State private var selectedTab: MainTabType = .home
     var body: some View {
-        Text("MainTabView")
+        TabView(selection: $selectedTab) {
+            ForEach(MainTabType.allCases, id: \.self) { tab in
+                Group {
+                    switch tab {
+                    case .home:
+                        HomeView()
+                    case .chat:
+                        ChatListView()
+                    case .phone:
+                        Color.blackFix
+                    }
+                }
+                .tabItem {
+                    Label(tab.title, image: )
+                }
+            }
+        }
     }
 }
 
