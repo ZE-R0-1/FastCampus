@@ -15,7 +15,7 @@ struct MainTabView: View {
                 Group {
                     switch tab {
                     case .home:
-                        HomeView()
+                        HomeView(viewModel: .init())
                     case .chat:
                         ChatListView()
                     case .phone:
@@ -23,10 +23,16 @@ struct MainTabView: View {
                     }
                 }
                 .tabItem {
-                    Label(tab.title, image: )
+                    Label(tab.title, image: tab.imageName(selected: selectedTab == tab))
                 }
+                .tag(tab)
             }
         }
+        .tint(.bkText)
+    }
+    
+    init() {
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.bkText)
     }
 }
 

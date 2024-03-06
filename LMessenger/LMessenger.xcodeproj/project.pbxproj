@@ -37,6 +37,7 @@
 		B0AC344B2B95A25E0011AE91 /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC344A2B95A25E0011AE91 /* MainTabType.swift */; };
 		B0AC344F2B95A3E40011AE91 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC344E2B95A3E40011AE91 /* HomeView.swift */; };
 		B0AC34512B95A3FB0011AE91 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34502B95A3FB0011AE91 /* ChatListView.swift */; };
+		B0AC34542B983E4C0011AE91 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC34532B983E4C0011AE91 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		B0AC344A2B95A25E0011AE91 /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
 		B0AC344E2B95A3E40011AE91 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B0AC34502B95A3FB0011AE91 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		B0AC34532B983E4C0011AE91 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,8 @@
 				B0AC34202B8DD0C60011AE91 /* Authencation */,
 				B0AC342F2B8F248B0011AE91 /* Login */,
 				B0AC342E2B8F1F1E0011AE91 /* MainTab */,
+				B0AC344C2B95A3C70011AE91 /* Home */,
+				B0AC344D2B95A3D10011AE91 /* ChatList */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,8 +248,6 @@
 			children = (
 				B0AC34342B8F24F80011AE91 /* MainTabView.swift */,
 				B0AC344A2B95A25E0011AE91 /* MainTabType.swift */,
-				B0AC344D2B95A3D10011AE91 /* ChatList */,
-				B0AC344C2B95A3C70011AE91 /* Home */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -281,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				B0AC344E2B95A3E40011AE91 /* HomeView.swift */,
+				B0AC34532B983E4C0011AE91 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				B0AC34412B92DB5B0011AE91 /* User.swift in Sources */,
 				B0AC344B2B95A25E0011AE91 /* MainTabType.swift in Sources */,
 				B0AC34332B8F24D90011AE91 /* LoginIntroView.swift in Sources */,
+				B0AC34542B983E4C0011AE91 /* HomeViewModel.swift in Sources */,
 				B0AC34222B8DD0F00011AE91 /* AuthenticationViewModel.swift in Sources */,
 				B0AC341E2B8DD0350011AE91 /* Services.swift in Sources */,
 				B0AC341B2B8DD0010011AE91 /* DIContainer.swift in Sources */,
