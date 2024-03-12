@@ -7,19 +7,29 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct HomeView: View {
+    @EnvironmentObject var container: DIContainer
     @StateObject var viewModel: HomeViewModel
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $container.navigationRouter.destinations) {
             contentView
                 .fullScreenCover(item: $viewModel.modalDestination) {
                     switch $0 {
                     case .myProfile:
-                        MyProfileView()
+                        MyProfileView(viewModel: .init(container: container, userId: viewModel.userId))
                     case let .otherProfile(userId):
-                        OtherProfileView()
+                        OtherProfileView(viewModel: .init(container: container, userId: userId)) { otherUserInfo in
+                            viewModel.send(action: .goToChat(otherUserInfo))
+                        }
+                    case .setting:
+                        SettingView(viewModel: .init())
                     }
+                }
+                .navigationDestination(for: NavigationDestination.self) {
+                    NavigationRoutingView(destination: $0)
                 }
         }
     }
@@ -33,17 +43,17 @@ struct HomeView: View {
                     viewModel.send(action: .load)
                 }
         case .loading:
-            LoginView()
+            LoadingView()
         case .success:
             loadedView
                 .toolbar {
-                    Image("bookmark")
-                    Image("notifications")
-                    Image("person_add")
+                    Image(decorative: "bookmark")
+                    Image(decorative: "notifications")
+                    Image(decorative: "person_add")
                     Button {
-                        //
+                        viewModel.send(action: .presentView(.setting))
                     } label: {
-                        Image("settings")
+                        Image("settings", label: Text("설정"))
                     }
                 }
         case .fail:
@@ -56,12 +66,16 @@ struct HomeView: View {
             profileView
                 .padding(.bottom, 30)
             
-            searchButton
-                .padding(.bottom, 24)
+            NavigationLink(value: NavigationDestination.search(userId: viewModel.userId)) {
+                SearchButton()
+            }
+            .padding(.bottom, 24)
+            
             HStack {
                 Text("친구")
                     .font(.system(size: 14))
                     .foregroundColor(.bkText)
+                    .accessibilityAddTraits(.isHeader)
                 Spacer()
             }
             .padding(.horizontal, 30)
@@ -71,23 +85,25 @@ struct HomeView: View {
                 emptyView
             } else {
                 LazyVStack {
-                    ForEach(viewModel.users, id: \.id) { user in
-                        Button {
-                            viewModel.send(action: .presentOtherProfileView(user.id))
-                        } label: {
-                            HStack(spacing: 8) {
-                                Image("person")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                    .clipShape(Circle())
-                                Text(user.name)
-                                    .font(.system(size: 12))
-                                    .foregroundColor(.bkText)
-                                Spacer()
-                            }
+                    ForEach(viewModel.users) { user in
+                        HStack(spacing: 8) {
+                            URLImageView(urlString: user.profileURL)
+                                .frame(width: 40, height: 40)
+                                .clipShape(Circle())
+                            Text(user.name)
+                                .font(.system(size: 12))
+                                .foregroundColor(.bkText)
+                            Spacer()
                         }
-                        .padding(.horizontal, 30)
+                        .contentShape(Rectangle())
+                        .onTapGesture {
+                            viewModel.send(action: .presentView(.otherProfile(user.id)))
+                        }
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel(user.name)
+                        .accessibilityAddTraits(.isButton)
                     }
+                    .padding(.horizontal, 30)
                 }
             }
         }
@@ -106,34 +122,19 @@ struct HomeView: View {
             
             Spacer()
             
-            Image("person")
-                .resizable()
+            URLImageView(urlString: viewModel.myUser?.profileURL)
                 .frame(width: 52, height: 52)
                 .clipShape(Circle())
         }
         .padding(.horizontal, 30)
         .onTapGesture {
-            viewModel.send(action: .presentMyProfileView)
+            viewModel.send(action: .presentView(.myProfile))
         }
-    }
-    
-    var searchButton: some View {
-        ZStack {
-            Rectangle()
-                .foregroundColor(.clear)
-                .frame(height: 36)
-                .background(Color.greyCool)
-                .cornerRadius(5)
-            
-            HStack {
-                Text("검색")
-                    .font(.system(size: 12))
-                    .foregroundColor(.greyLightVer2)
-                Spacer()
-            }
-            .padding(.leading, 22)
+        .accessibilityElement(children: .combine)
+        .accessibilityHint(Text("내 프로필을 보려면 이중탭하십시오."))
+        .accessibilityAction {
+            viewModel.send(action: .presentView(.myProfile))
         }
-        .padding(.horizontal, 30)
     }
     
     var emptyView: some View {
@@ -148,7 +149,7 @@ struct HomeView: View {
             .padding(.bottom, 30)
             
             Button {
-                //
+                viewModel.send(action: .requestContacts)
             } label: {
                 Text("친구추가")
                     .font(.system(size: 14))
@@ -160,13 +161,15 @@ struct HomeView: View {
                 RoundedRectangle(cornerRadius: 5)
                     .stroke(Color.greyLight)
             }
-
         }
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
+    static let container: DIContainer = .stub
+    
     static var previews: some View {
-        HomeView(viewModel: .init(container: .init(services: StubService()), userId: "user1_id"))
+        HomeView(viewModel: .init(container: Self.container, userId: "user1_id"))
+            .environmentObject(Self.container)
     }
 }

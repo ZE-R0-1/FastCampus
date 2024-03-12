@@ -20,7 +20,7 @@ struct MainTabView: View {
                     case .home:
                         HomeView(viewModel: .init(container: container, userId: authViewModel.userId ?? ""))
                     case .chat:
-                        ChatListView()
+                        ChatListView(viewModel: .init(container: container, userId: authViewModel.userId ?? ""))
                     case .phone:
                         Color.blackFix
                     }
@@ -40,10 +40,11 @@ struct MainTabView: View {
 }
 
 struct MainTabView_Previews: PreviewProvider {
-    static let container = DIContainer(services: StubService())
+    static let container: DIContainer = .stub
+    
     static var previews: some View {
         MainTabView()
-            .environment(self.container)
-            .environmentObject(AuthenticationViewModel(container: self.container))
+            .environmentObject(Self.container)
+            .environmentObject(AuthenticationViewModel(container: Self.container))
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B088D3E12BA01B80001AE232 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E02BA01B80001AE232 /* ContactService.swift */; };
 		B0AC33E72B8D78810011AE91 /* LMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC33E62B8D78810011AE91 /* LMessengerApp.swift */; };
 		B0AC33E92B8D78810011AE91 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC33E82B8D78810011AE91 /* AuthenticatedView.swift */; };
 		B0AC33EB2B8D78830011AE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AC33EA2B8D78830011AE91 /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B088D3E02BA01B80001AE232 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
 		B0AC33E32B8D78810011AE91 /* LMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AC33E62B8D78810011AE91 /* LMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerApp.swift; sourceTree = "<group>"; };
 		B0AC33E82B8D78810011AE91 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				B0AC342C2B8F0CA60011AE91 /* AuthenticationService.swift */,
 				B0AC34422B92DBAF0011AE91 /* ServiceError.swift */,
 				B0AC345B2B984A040011AE91 /* UserService.swift */,
+				B088D3E02BA01B80001AE232 /* ContactService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				B0AC345F2B984B2C0011AE91 /* UserObject.swift in Sources */,
 				B0AC346D2B99A9D90011AE91 /* ErrorView.swift in Sources */,
 				B0AC346B2B99A9710011AE91 /* LoadingView.swift in Sources */,
+				B088D3E12BA01B80001AE232 /* ContactService.swift in Sources */,
 				B0AC34662B99A8380011AE91 /* Phase.swift in Sources */,
 				B0AC34542B983E4C0011AE91 /* HomeViewModel.swift in Sources */,
 				B0AC34222B8DD0F00011AE91 /* AuthenticationViewModel.swift in Sources */,
@@ -711,6 +715,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LMessenger/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -744,6 +749,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LMessenger/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
