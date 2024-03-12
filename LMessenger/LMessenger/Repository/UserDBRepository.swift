@@ -40,6 +40,30 @@ class UserDBRepository: UserDBRepositoryType {
             .eraseToAnyPublisher()
     }
     
+    func addUserAfterContact(users: [UserObject]) -> AnyPublisher<Void, DBError> {
+        Publishers.Zip(users.publisher, users.publisher)
+            .compactMap { origin, converted in
+                if let converted = try? JSONEncoder().encode(converted) {
+                    return (origin, converted)
+                } else {
+                    return nil
+                }
+            }
+            .compactMap { origin, converted in
+                if let converted = try? JSONSerialization.jsonObject(with: converted, options: .fragmentsAllowed) {
+                    return (origin, converted)
+                } else {
+                    return nil
+                }
+            }
+            .flatMap { [weak self] origin, converted -> AnyPublisher<Void, DBError> in
+                guard let 'self' = self else { return Empty().eraseToAnyPublisher() }
+                return self.reference.setValue(key: DBKey.Users, path: origin.id, value: converted)
+            }
+            .last()
+            .eraseToAnyPublisher()
+    }
+    
     func getUser(userId: String) -> AnyPublisher<UserObject, DBError> {
         Future<Any?, DBError> { [weak self] promise in
             self?.db.child(DBKey.Users).child(userId).getData { error, snapshot in

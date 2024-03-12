@@ -30,10 +30,10 @@ class AuthenticationViewModel: ObservableObject {
     var userId: String?
     
     private var currentNonce: String?
-    private var container: DiContainer
+    private var container: DIContainer
     private var subscriptions = Set<AnyCancellable>()
     
-    init(container: DiContainer) {
+    init(container: DIContainer) {
         self.container = container
     }
     

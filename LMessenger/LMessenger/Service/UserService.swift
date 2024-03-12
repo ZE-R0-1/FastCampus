@@ -32,7 +32,7 @@ class UserService: UserServiceType {
     }
     
     func addUserAfterContact(users: [User]) -> AnyPublisher<Void, ServiceError> {
-        dbRepository.addUserAfterContact(users: users.map { $0.toObject() })
+        dbRepository.addUserAfterContact(user: users.map { $0.toObject() })
             .mapError { .error($0) }
             .eraseToAnyPublisher()
     }

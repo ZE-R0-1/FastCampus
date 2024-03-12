@@ -22,10 +22,10 @@ class HomeViewModel: ObservableObject {
     @Published var modalDestination: HomeModalDestination?
     
     private var userId: String
-    private var container: DiContainer
+    private var container: DIContainer
     private var subscription = Set<AnyCancellable>()
     
-    init(container: DiContainer, userId: String) {
+    init(container: DIContainer, userId: String) {
         self.container = container
         self.userId = userId
     }

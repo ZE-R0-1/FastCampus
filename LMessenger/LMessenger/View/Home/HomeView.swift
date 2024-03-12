@@ -70,20 +70,23 @@ struct HomeView: View {
                 Spacer(minLength: 89)
                 emptyView
             } else {
-                ForEach(viewModel.users, id: \.id) { user in
-                    Button {
-                        viewModel.send(action: .presentOtherProfileView(user.id))
-                    } label: {
-                        HStack(spacing: 8) {
-                            Image("person")
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                                .clipShape(Circle())
-                            Text(user.name)
-                                .font(.system(size: 12))
-                                .foregroundColor(.bkText)
-                            Spacer()
+                LazyVStack {
+                    ForEach(viewModel.users, id: \.id) { user in
+                        Button {
+                            viewModel.send(action: .presentOtherProfileView(user.id))
+                        } label: {
+                            HStack(spacing: 8) {
+                                Image("person")
+                                    .resizable()
+                                    .frame(width: 40, height: 40)
+                                    .clipShape(Circle())
+                                Text(user.name)
+                                    .font(.system(size: 12))
+                                    .foregroundColor(.bkText)
+                                Spacer()
+                            }
                         }
+                        .padding(.horizontal, 30)
                     }
                 }
             }

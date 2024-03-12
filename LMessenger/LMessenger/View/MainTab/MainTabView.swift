@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainTabView: View {
     @EnvironmentObject var authViewModel: AuthenticationViewModel
-    @EnvironmentObject var container: DiContainer
+    @EnvironmentObject var container: DIContainer
     @State private var selectedTab: MainTabType = .home
     
     var body: some View {
@@ -40,7 +40,10 @@ struct MainTabView: View {
 }
 
 struct MainTabView_Previews: PreviewProvider {
+    static let container = DIContainer(services: StubService())
     static var previews: some View {
         MainTabView()
+            .environment(self.container)
+            .environmentObject(AuthenticationViewModel(container: self.container))
     }
 }
