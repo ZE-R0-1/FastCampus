@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B088D3E12BA01B80001AE232 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E02BA01B80001AE232 /* ContactService.swift */; };
+		B088D3E32BA122FE001AE232 /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E22BA122FE001AE232 /* MyProfileViewModel.swift */; };
+		B088D3E52BA12496001AE232 /* MyProfileMenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E42BA12496001AE232 /* MyProfileMenuType.swift */; };
+		B088D3E92BA19CD5001AE232 /* MyProfileDescEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E82BA19CD5001AE232 /* MyProfileDescEditView.swift */; };
 		B0AC33E72B8D78810011AE91 /* LMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC33E62B8D78810011AE91 /* LMessengerApp.swift */; };
 		B0AC33E92B8D78810011AE91 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC33E82B8D78810011AE91 /* AuthenticatedView.swift */; };
 		B0AC33EB2B8D78830011AE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AC33EA2B8D78830011AE91 /* Assets.xcassets */; };
@@ -73,6 +76,9 @@
 
 /* Begin PBXFileReference section */
 		B088D3E02BA01B80001AE232 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		B088D3E22BA122FE001AE232 /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
+		B088D3E42BA12496001AE232 /* MyProfileMenuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileMenuType.swift; sourceTree = "<group>"; };
+		B088D3E82BA19CD5001AE232 /* MyProfileDescEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileDescEditView.swift; sourceTree = "<group>"; };
 		B0AC33E32B8D78810011AE91 /* LMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AC33E62B8D78810011AE91 /* LMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerApp.swift; sourceTree = "<group>"; };
 		B0AC33E82B8D78810011AE91 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
@@ -373,6 +379,9 @@
 			children = (
 				B0AC34752B99ABAF0011AE91 /* MyProfileView.swift */,
 				B0AC34732B99AB980011AE91 /* OtherProfileView.swift */,
+				B088D3E22BA122FE001AE232 /* MyProfileViewModel.swift */,
+				B088D3E42BA12496001AE232 /* MyProfileMenuType.swift */,
+				B088D3E82BA19CD5001AE232 /* MyProfileDescEditView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -522,6 +531,7 @@
 			files = (
 				B0AC34762B99ABAF0011AE91 /* MyProfileView.swift in Sources */,
 				B0AC34612B984B840011AE91 /* DBError.swift in Sources */,
+				B088D3E32BA122FE001AE232 /* MyProfileViewModel.swift in Sources */,
 				B0AC34412B92DB5B0011AE91 /* User.swift in Sources */,
 				B0AC344B2B95A25E0011AE91 /* MainTabType.swift in Sources */,
 				B0AC34332B8F24D90011AE91 /* LoginIntroView.swift in Sources */,
@@ -552,6 +562,8 @@
 				B0AC342D2B8F0CA60011AE91 /* AuthenticationService.swift in Sources */,
 				B0AC34492B9300E20011AE91 /* RandomNonceString.swift in Sources */,
 				B0AC34432B92DBAF0011AE91 /* ServiceError.swift in Sources */,
+				B088D3E92BA19CD5001AE232 /* MyProfileDescEditView.swift in Sources */,
+				B088D3E52BA12496001AE232 /* MyProfileMenuType.swift in Sources */,
 				B0AC34352B8F24F80011AE91 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
