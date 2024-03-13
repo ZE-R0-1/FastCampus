@@ -11,6 +11,8 @@
 		B088D3E32BA122FE001AE232 /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E22BA122FE001AE232 /* MyProfileViewModel.swift */; };
 		B088D3E52BA12496001AE232 /* MyProfileMenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E42BA12496001AE232 /* MyProfileMenuType.swift */; };
 		B088D3E92BA19CD5001AE232 /* MyProfileDescEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3E82BA19CD5001AE232 /* MyProfileDescEditView.swift */; };
+		B088D3EB2BA1A1A2001AE232 /* PhotoPickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3EA2BA1A1A2001AE232 /* PhotoPickerService.swift */; };
+		B088D3EE2BA1A234001AE232 /* PhotoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088D3ED2BA1A234001AE232 /* PhotoImage.swift */; };
 		B0AC33E72B8D78810011AE91 /* LMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC33E62B8D78810011AE91 /* LMessengerApp.swift */; };
 		B0AC33E92B8D78810011AE91 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC33E82B8D78810011AE91 /* AuthenticatedView.swift */; };
 		B0AC33EB2B8D78830011AE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AC33EA2B8D78830011AE91 /* Assets.xcassets */; };
@@ -79,6 +81,8 @@
 		B088D3E22BA122FE001AE232 /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
 		B088D3E42BA12496001AE232 /* MyProfileMenuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileMenuType.swift; sourceTree = "<group>"; };
 		B088D3E82BA19CD5001AE232 /* MyProfileDescEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileDescEditView.swift; sourceTree = "<group>"; };
+		B088D3EA2BA1A1A2001AE232 /* PhotoPickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerService.swift; sourceTree = "<group>"; };
+		B088D3ED2BA1A234001AE232 /* PhotoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImage.swift; sourceTree = "<group>"; };
 		B0AC33E32B8D78810011AE91 /* LMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AC33E62B8D78810011AE91 /* LMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerApp.swift; sourceTree = "<group>"; };
 		B0AC33E82B8D78810011AE91 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
@@ -155,6 +159,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B088D3EC2BA1A21D001AE232 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B088D3EA2BA1A1A2001AE232 /* PhotoPickerService.swift */,
+				B088D3ED2BA1A234001AE232 /* PhotoImage.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
 		B0AC33DA2B8D78800011AE91 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +267,7 @@
 		B0AC341C2B8DD01B0011AE91 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				B088D3EC2BA1A21D001AE232 /* PhotoPicker */,
 				B0AC341D2B8DD0350011AE91 /* Services.swift */,
 				B0AC342C2B8F0CA60011AE91 /* AuthenticationService.swift */,
 				B0AC34422B92DBAF0011AE91 /* ServiceError.swift */,
@@ -532,6 +546,7 @@
 				B0AC34762B99ABAF0011AE91 /* MyProfileView.swift in Sources */,
 				B0AC34612B984B840011AE91 /* DBError.swift in Sources */,
 				B088D3E32BA122FE001AE232 /* MyProfileViewModel.swift in Sources */,
+				B088D3EB2BA1A1A2001AE232 /* PhotoPickerService.swift in Sources */,
 				B0AC34412B92DB5B0011AE91 /* User.swift in Sources */,
 				B0AC344B2B95A25E0011AE91 /* MainTabType.swift in Sources */,
 				B0AC34332B8F24D90011AE91 /* LoginIntroView.swift in Sources */,
@@ -550,6 +565,7 @@
 				B0AC341B2B8DD0010011AE91 /* DIContainer.swift in Sources */,
 				B0AC33E92B8D78810011AE91 /* AuthenticatedView.swift in Sources */,
 				B0AC34742B99AB980011AE91 /* OtherProfileView.swift in Sources */,
+				B088D3EE2BA1A234001AE232 /* PhotoImage.swift in Sources */,
 				B0AC34292B8F0A8B0011AE91 /* AppDelegate.swift in Sources */,
 				B0AC34512B95A3FB0011AE91 /* ChatListView.swift in Sources */,
 				B0AC34172B8D7B7D0011AE91 /* Color+Extension.swift in Sources */,
