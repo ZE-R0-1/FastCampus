@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct User {
+struct User: Identifiable {
     var id: String
     var name: String
     var phoneNumber: String?
     var profileURL: String?
     var description: String?
+    var fcmToken: String?
 }
 
 extension User {
@@ -21,7 +22,8 @@ extension User {
               name: name,
               phoneNumber: phoneNumber,
               profileURL: profileURL,
-              description: description
+              description: description,
+              fcmToken: fcmToken
         )
     }
 }
