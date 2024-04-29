@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0052AAB2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0052AAA2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift */; };
+		B0052AAF2BDF5EE100F177CB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0052AAE2BDF5EE100F177CB /* NetworkService.swift */; };
+		B0052AB42BDF604C00F177CB /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0052AB32BDF604C00F177CB /* HomeResponse.swift */; };
+		B0052ABA2BDF654000F177CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B0052AB92BDF654000F177CB /* Kingfisher */; };
+		B0052ABD2BDF655600F177CB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B0052ABC2BDF655600F177CB /* Lottie */; };
+		B0052ABF2BDF671B00F177CB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0052ABE2BDF671B00F177CB /* HomeViewModel.swift */; };
 		B03E6C582BDB2B5A0015AA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E6C572BDB2B5A0015AA9A /* AppDelegate.swift */; };
 		B03E6C5A2BDB2B5A0015AA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E6C592BDB2B5A0015AA9A /* SceneDelegate.swift */; };
 		B03E6C612BDB2B5C0015AA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03E6C602BDB2B5C0015AA9A /* Assets.xcassets */; };
 		B03E6C642BDB2B5C0015AA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03E6C622BDB2B5C0015AA9A /* LaunchScreen.storyboard */; };
 		B03E6C6C2BDB31E80015AA9A /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03E6C6B2BDB31E80015AA9A /* Splash.storyboard */; };
 		B03E6C6E2BDB321B0015AA9A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E6C6D2BDB321B0015AA9A /* SplashViewController.swift */; };
-		B03E6C712BDB424E0015AA9A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B03E6C702BDB424E0015AA9A /* Lottie */; };
 		B03E6C742BDB453F0015AA9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03E6C732BDB453F0015AA9A /* Images.xcassets */; };
 		B03E6C782BDB47C40015AA9A /* CPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E6C772BDB47C40015AA9A /* CPImage.swift */; };
 		B03E6C7A2BDB80B10015AA9A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03E6C792BDB80B10015AA9A /* Colors.xcassets */; };
@@ -25,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0052AAA2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0052AAE2BDF5EE100F177CB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B0052AB32BDF604C00F177CB /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		B0052ABE2BDF671B00F177CB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B03E6C542BDB2B5A0015AA9A /* Cproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03E6C572BDB2B5A0015AA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B03E6C592BDB2B5A0015AA9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,13 +57,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B03E6C712BDB424E0015AA9A /* Lottie in Frameworks */,
+				B0052ABA2BDF654000F177CB /* Kingfisher in Frameworks */,
+				B0052ABD2BDF655600F177CB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0052AAC2BDF37B800F177CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B03E6C872BDB97950015AA9A /* HomeBannerCollectionViewCell.swift */,
+				B0052AAA2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0052AAD2BDF5EB600F177CB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B0052AAE2BDF5EE100F177CB /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B0052AB02BDF5FF800F177CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0052AB32BDF604C00F177CB /* HomeResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B03E6C4B2BDB2B5A0015AA9A = {
 			isa = PBXGroup;
 			children = (
@@ -75,8 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				B03E6C862BDB92FF0015AA9A /* Delegates */,
-				B03E6C832BDB92860015AA9A /* Feature */,
 				B03E6C722BDB451C0015AA9A /* DesignSource */,
+				B0052AAD2BDF5EB600F177CB /* Network */,
+				B0052AB02BDF5FF800F177CB /* Model */,
+				B03E6C832BDB92860015AA9A /* Feature */,
 				B03E6C652BDB2B5C0015AA9A /* Info.plist */,
 			);
 			path = Cproject;
@@ -98,8 +135,8 @@
 		B03E6C832BDB92860015AA9A /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				B03E6C852BDB92E70015AA9A /* Home */,
 				B03E6C842BDB928F0015AA9A /* Splash */,
+				B03E6C852BDB92E70015AA9A /* Home */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -117,9 +154,10 @@
 		B03E6C852BDB92E70015AA9A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B0052AAC2BDF37B800F177CB /* View */,
 				B03E6C7F2BDB8E620015AA9A /* Home.storyboard */,
 				B03E6C812BDB8E730015AA9A /* HomeViewController.swift */,
-				B03E6C872BDB97950015AA9A /* HomeBannerCollectionViewCell.swift */,
+				B0052ABE2BDF671B00F177CB /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -150,7 +188,8 @@
 			);
 			name = Cproject;
 			packageProductDependencies = (
-				B03E6C702BDB424E0015AA9A /* Lottie */,
+				B0052AB92BDF654000F177CB /* Kingfisher */,
+				B0052ABC2BDF655600F177CB /* Lottie */,
 			);
 			productName = Cproject;
 			productReference = B03E6C542BDB2B5A0015AA9A /* Cproject.app */;
@@ -181,7 +220,8 @@
 			);
 			mainGroup = B03E6C4B2BDB2B5A0015AA9A;
 			packageReferences = (
-				B03E6C6F2BDB424E0015AA9A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				B0052AB82BDF654000F177CB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B0052ABB2BDF655600F177CB /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = B03E6C552BDB2B5A0015AA9A /* Products */;
 			projectDirPath = "";
@@ -213,14 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0052AAF2BDF5EE100F177CB /* NetworkService.swift in Sources */,
 				B03E6C7C2BDB84140015AA9A /* CPColor.swift in Sources */,
+				B0052AAB2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift in Sources */,
 				B03E6C582BDB2B5A0015AA9A /* AppDelegate.swift in Sources */,
 				B03E6C822BDB8E730015AA9A /* HomeViewController.swift in Sources */,
 				B03E6C7E2BDB85C20015AA9A /* CPFont.swift in Sources */,
 				B03E6C782BDB47C40015AA9A /* CPImage.swift in Sources */,
+				B0052ABF2BDF671B00F177CB /* HomeViewModel.swift in Sources */,
 				B03E6C5A2BDB2B5A0015AA9A /* SceneDelegate.swift in Sources */,
 				B03E6C6E2BDB321B0015AA9A /* SplashViewController.swift in Sources */,
 				B03E6C882BDB97950015AA9A /* HomeBannerCollectionViewCell.swift in Sources */,
+				B0052AB42BDF604C00F177CB /* HomeResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,20 +474,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B03E6C6F2BDB424E0015AA9A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+		B0052AB82BDF654000F177CB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		B0052ABB2BDF655600F177CB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B03E6C702BDB424E0015AA9A /* Lottie */ = {
+		B0052AB92BDF654000F177CB /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B03E6C6F2BDB424E0015AA9A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			package = B0052AB82BDF654000F177CB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B0052ABC2BDF655600F177CB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0052ABB2BDF655600F177CB /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
