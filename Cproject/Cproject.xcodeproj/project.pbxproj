@@ -13,6 +13,8 @@
 		B0052ABA2BDF654000F177CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B0052AB92BDF654000F177CB /* Kingfisher */; };
 		B0052ABD2BDF655600F177CB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B0052ABC2BDF655600F177CB /* Lottie */; };
 		B0052ABF2BDF671B00F177CB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0052ABE2BDF671B00F177CB /* HomeViewModel.swift */; };
+		B03A6F312BE9F814007FCF3C /* Numeric+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A6F302BE9F814007FCF3C /* Numeric+Extensions.swift */; };
+		B03A6F332BE9FF52007FCF3C /* HomeCouponButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A6F322BE9FF52007FCF3C /* HomeCouponButtonCollectionViewCell.swift */; };
 		B03E6C582BDB2B5A0015AA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E6C572BDB2B5A0015AA9A /* AppDelegate.swift */; };
 		B03E6C5A2BDB2B5A0015AA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E6C592BDB2B5A0015AA9A /* SceneDelegate.swift */; };
 		B03E6C612BDB2B5C0015AA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03E6C602BDB2B5C0015AA9A /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		B0052AAE2BDF5EE100F177CB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B0052AB32BDF604C00F177CB /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
 		B0052ABE2BDF671B00F177CB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B03A6F302BE9F814007FCF3C /* Numeric+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Extensions.swift"; sourceTree = "<group>"; };
+		B03A6F322BE9FF52007FCF3C /* HomeCouponButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCouponButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		B03E6C542BDB2B5A0015AA9A /* Cproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03E6C572BDB2B5A0015AA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B03E6C592BDB2B5A0015AA9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 			children = (
 				B03E6C872BDB97950015AA9A /* HomeBannerCollectionViewCell.swift */,
 				B0052AAA2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift */,
+				B03A6F322BE9FF52007FCF3C /* HomeCouponButtonCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +93,14 @@
 				B0052AB32BDF604C00F177CB /* HomeResponse.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B03A6F2F2BE9F7EE007FCF3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B03A6F302BE9F814007FCF3C /* Numeric+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B03E6C4B2BDB2B5A0015AA9A = {
@@ -109,6 +122,7 @@
 		B03E6C562BDB2B5A0015AA9A /* Cproject */ = {
 			isa = PBXGroup;
 			children = (
+				B03A6F2F2BE9F7EE007FCF3C /* Extensions */,
 				B03E6C862BDB92FF0015AA9A /* Delegates */,
 				B03E6C722BDB451C0015AA9A /* DesignSource */,
 				B0052AAD2BDF5EB600F177CB /* Network */,
@@ -254,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0052AAF2BDF5EE100F177CB /* NetworkService.swift in Sources */,
+				B03A6F312BE9F814007FCF3C /* Numeric+Extensions.swift in Sources */,
 				B03E6C7C2BDB84140015AA9A /* CPColor.swift in Sources */,
 				B0052AAB2BDF1F4900F177CB /* HomeProductCollectionViewCell.swift in Sources */,
 				B03E6C582BDB2B5A0015AA9A /* AppDelegate.swift in Sources */,
+				B03A6F332BE9FF52007FCF3C /* HomeCouponButtonCollectionViewCell.swift in Sources */,
 				B03E6C822BDB8E730015AA9A /* HomeViewController.swift in Sources */,
 				B03E6C7E2BDB85C20015AA9A /* CPFont.swift in Sources */,
 				B03E6C782BDB47C40015AA9A /* CPImage.swift in Sources */,
