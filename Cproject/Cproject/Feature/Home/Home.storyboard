@@ -18,18 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rZn-Zz-whp">
-                                <rect key="frame" x="6" y="6" width="393" height="852"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rZn-Zz-whp">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="b6V-3q-XFg">
                                     <size key="itemSize" width="393" height="226"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="headerReferenceSize" width="50" height="77"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeBannerCollectionViewCell" id="Ccc-wQ-Wcw" customClass="HomeBannerCollectionViewCell" customModule="Cproject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="13.666666666666666" width="128" height="125"/>
+                                        <rect key="frame" x="0.0" y="90.666666666666671" width="128" height="125"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VOX-BW-Qdj">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
@@ -52,7 +52,7 @@
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeProductCollectionViewCell" id="1Vd-c0-xta" customClass="HomeProductCollectionViewCell" customModule="Cproject" customModuleProvider="target">
-                                        <rect key="frame" x="138" y="0.0" width="171" height="152"/>
+                                        <rect key="frame" x="222" y="77" width="171" height="152"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dpP-2t-7qp">
                                             <rect key="frame" x="0.0" y="0.0" width="171" height="152"/>
@@ -125,40 +125,85 @@
                                             <outlet property="productTitleLabel" destination="EPw-Ew-i4v" id="nUc-Yl-kZS"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCouponButtonCollectionViewCell" id="bp9-RV-YLr" customClass="HomeCouponButtonCollectionViewCell" customModule="Cproject" customModuleProvider="target">
-                                        <rect key="frame" x="319" y="43.666666666666664" width="74" height="65"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeSeparateLineCollectionViewCell" id="eIB-d6-PaB" customClass="HomeSeparateLineCollectionViewCell" customModule="Cproject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="239" width="393" height="226"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ZsQ-qa-n3S">
-                                            <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LPo-Wa-RJ3">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="226"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCouponButtonCollectionViewCell" id="Bq6-fo-xT1" customClass="HomeCouponButtonCollectionViewCell" customModule="Cproject" customModuleProvider="target">
+                                        <rect key="frame" x="184.66666666666666" y="475" width="24" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g2s-vM-0nT">
+                                            <rect key="frame" x="0.0" y="0.0" width="24" height="14"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z2i-Fw-YJQ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
-                                                </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCM-Ib-42a">
-                                                    <rect key="frame" x="0.0" y="0.0" width="74" height="65"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtN-HD-8xn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="24" height="14"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain"/>
+                                                    <connections>
+                                                        <action selector="didTapCouponButton:" destination="Bq6-fo-xT1" eventType="touchUpInside" id="GlT-xt-6Uh"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="Z2i-Fw-YJQ" secondAttribute="bottom" id="0xG-b4-ADU"/>
-                                                <constraint firstItem="mCM-Ib-42a" firstAttribute="leading" secondItem="ZsQ-qa-n3S" secondAttribute="leading" id="Ef4-2s-OYO"/>
-                                                <constraint firstItem="Z2i-Fw-YJQ" firstAttribute="leading" secondItem="ZsQ-qa-n3S" secondAttribute="leading" id="LPs-Fv-iXY"/>
-                                                <constraint firstAttribute="trailing" secondItem="Z2i-Fw-YJQ" secondAttribute="trailing" id="VDn-v3-7Ym"/>
-                                                <constraint firstItem="Z2i-Fw-YJQ" firstAttribute="top" secondItem="ZsQ-qa-n3S" secondAttribute="top" id="Ycs-Lz-slm"/>
-                                                <constraint firstAttribute="trailing" secondItem="mCM-Ib-42a" secondAttribute="trailing" id="eTJ-Jr-Fiv"/>
-                                                <constraint firstItem="mCM-Ib-42a" firstAttribute="top" secondItem="ZsQ-qa-n3S" secondAttribute="top" id="f5n-g7-AOP"/>
-                                                <constraint firstAttribute="bottom" secondItem="mCM-Ib-42a" secondAttribute="bottom" id="wAi-ld-EeH"/>
+                                                <constraint firstAttribute="trailing" secondItem="gtN-HD-8xn" secondAttribute="trailing" id="Boo-y6-g2P"/>
+                                                <constraint firstItem="gtN-HD-8xn" firstAttribute="top" secondItem="g2s-vM-0nT" secondAttribute="top" id="UZH-B0-TTv"/>
+                                                <constraint firstItem="gtN-HD-8xn" firstAttribute="leading" secondItem="g2s-vM-0nT" secondAttribute="leading" id="X4Q-Ie-cR8"/>
+                                                <constraint firstAttribute="bottom" secondItem="gtN-HD-8xn" secondAttribute="bottom" id="rsJ-w6-Abh"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="74" height="65"/>
                                         <connections>
-                                            <outlet property="couponButton" destination="mCM-Ib-42a" id="x4H-yR-Cio"/>
-                                            <outlet property="couponButtonImageView" destination="Z2i-Fw-YJQ" id="sV9-c8-6Xh"/>
+                                            <outlet property="couponButton" destination="gtN-HD-8xn" id="paN-Nv-YP4"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeThemeCollectionViewCell" id="aTP-QT-iHb" customClass="HomeThemeCollectionViewCell" customModule="Cproject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="499" width="393" height="226"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="I85-B3-RNe">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="226"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VGd-OL-zTm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="226"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="VGd-OL-zTm" firstAttribute="top" secondItem="I85-B3-RNe" secondAttribute="top" id="Uyn-th-hMs"/>
+                                                <constraint firstAttribute="bottom" secondItem="VGd-OL-zTm" secondAttribute="bottom" id="dnN-x5-Pzd"/>
+                                                <constraint firstItem="VGd-OL-zTm" firstAttribute="leading" secondItem="I85-B3-RNe" secondAttribute="leading" id="fhJ-GA-9hn"/>
+                                                <constraint firstAttribute="trailing" secondItem="VGd-OL-zTm" secondAttribute="trailing" id="lKc-h6-g1W"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="themeImageView" destination="VGd-OL-zTm" id="4gY-ld-mah"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeThemeHeaderCollectionReusableView" id="oHL-ux-HBu" customClass="HomeThemeHeaderCollectionReusableView" customModule="Cproject" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="77"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOM-zI-kJh">
+                                            <rect key="frame" x="30" y="23" width="333" height="54"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" name="bk"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="WOM-zI-kJh" secondAttribute="bottom" id="AH2-I1-ZkW"/>
+                                        <constraint firstAttribute="trailing" secondItem="WOM-zI-kJh" secondAttribute="trailing" constant="30" id="AqF-hS-V6Q"/>
+                                        <constraint firstItem="WOM-zI-kJh" firstAttribute="top" secondItem="oHL-ux-HBu" secondAttribute="top" constant="23" id="Krg-fX-Djs"/>
+                                        <constraint firstItem="WOM-zI-kJh" firstAttribute="leading" secondItem="oHL-ux-HBu" secondAttribute="leading" constant="30" id="Sw6-bO-ySE"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="themeHeaderLabel" destination="WOM-zI-kJh" id="rGD-en-eIE"/>
+                                    </connections>
+                                </collectionReusableView>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
