@@ -82,6 +82,7 @@ private struct OnboardingCellListView: View {
   }
   
   fileprivate var body: some View {
+    // 셀 뷰
     TabView(selection: $selectedIndex) {
       ForEach(Array(onboardingViewModel.onboardingContents.enumerated()), id: \.element) { index, onboardingContent in
         OnboardingCellView(onboardingContent: onboardingContent)
