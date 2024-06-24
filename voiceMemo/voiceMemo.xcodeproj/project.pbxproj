@@ -258,8 +258,8 @@
 		B07795ED2B67437E00A9DD56 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				B077963A2B7063DA00A9DD56 /* TimerViewModel.swift */,
 				B077963C2B7067BC00A9DD56 /* TimerView.swift */,
+				B077963A2B7063DA00A9DD56 /* TimerViewModel.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
