@@ -2,7 +2,6 @@
 //  Color+Extension.swift
 //  LMessenger
 //
-//  Created by KMUSER on 2024/02/27.
 //
 
 import SwiftUI
@@ -27,3 +26,4 @@ extension Color {
     static let skyBg: Color = .init("sky_bg")
     static let whiteFix: Color = .init("white-fix")
 }
+

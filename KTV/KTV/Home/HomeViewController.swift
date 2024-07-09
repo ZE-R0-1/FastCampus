@@ -59,6 +59,7 @@ class HomeViewController: UIViewController {
         )
         
         self.collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "empty")
+        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
