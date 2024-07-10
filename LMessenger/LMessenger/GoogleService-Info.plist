@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>961987188516-ubpu0nvdgb0tvndpkigf57cauq9334kd.apps.googleusercontent.com</string>
+	<string>195980351964-408e8h25q3cqbtjpumudf2iagbtk06lj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.961987188516-ubpu0nvdgb0tvndpkigf57cauq9334kd</string>
+	<string>com.googleusercontent.apps.195980351964-408e8h25q3cqbtjpumudf2iagbtk06lj</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAL_e7L4H0F47mRLE-wawzt_TmZv0TyraQ</string>
+	<string>AIzaSyANgDRrDYo4HZ1stlexb1vKc_Iw4C9rRX8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>961987188516</string>
+	<string>195980351964</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.fastcampus.LMessenger</string>
+	<string>com.fastcampus.LMessenger77</string>
 	<key>PROJECT_ID</key>
-	<string>lmessenger-22de5</string>
+	<string>lmessenger-cad9c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>lmessenger-22de5.appspot.com</string>
+	<string>lmessenger-cad9c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:961987188516:ios:9f55c7235bfdae7118c5b1</string>
+	<string>1:195980351964:ios:2f9b5329bdf124c4fad719</string>
 </dict>
 </plist>
