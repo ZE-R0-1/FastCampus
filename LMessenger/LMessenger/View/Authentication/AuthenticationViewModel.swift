@@ -45,7 +45,12 @@ class AuthenticationViewModel: ObservableObject {
             }
         case .googleLogin:
             isLoading = true
+            
             container.services.authService.signInWithGoogle()
+            // db 추가
+                .flatMap { user in
+                    self.container.services.userService.addUser(user)
+                }
                 .sink { [weak self] completion in
                     if case .failure = completion {
                         self?.isLoading = false
@@ -65,6 +70,9 @@ class AuthenticationViewModel: ObservableObject {
                 guard let nonce = currentNonce else { return }
                 
                 container.services.authService.handleSignInWithAppleCompletion(authorization, none: nonce)
+                    .flatMap { user in
+                        self.container.services.userService.addUser(user)
+                    }
                     .sink { [weak self] completion in
                         if case .failure = completion {
                             self?.isLoading = false
